@@ -1,0 +1,1 @@
+Identity fluctuates and changes through development and intimate relationships. Recognising who we are, true and false selves, parts and polarities.

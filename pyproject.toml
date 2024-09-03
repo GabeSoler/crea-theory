@@ -1,0 +1,9 @@
+[project]
+name = "crea-theory"
+dependencies = [
+    "coltrane <= 1"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
