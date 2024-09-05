@@ -1,0 +1,24 @@
+{% extends 'coltrane/base.html' %}
+
+
+{% block content%}
+
+{{content}}
+
+
+
+{% endblock content %}
+
+{% block action %}
+
+{% directory_contents 'components' as directory_contents %}
+
+{% for content in directory_contents %}
+
+<ul>
+    <li>{{content}}</li>
+    {% endfor %}
+</ul>
+
+
+{% endblock action %}

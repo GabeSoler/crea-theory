@@ -1,1 +1,0 @@
-Family of the past shapes family of the present. Family trauma. Attachment 

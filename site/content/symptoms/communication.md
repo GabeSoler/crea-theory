@@ -1,1 +1,0 @@
-Learning about human dynamics, couples, families. Verbal and not verbal dances and levels of communication. Content and context of a message.

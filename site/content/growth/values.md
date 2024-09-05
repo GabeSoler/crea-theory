@@ -1,3 +1,9 @@
+---
+title: 'Fifth Gent'
+template: coltrane/content.html
+publish_date: 2024-07-30 20:20:01
+---
+
 - Values system/worldview (based on Spiral dynamics; Robert Kegan) Having multiple or changes in time is expected and may be a sing of self complexity.
     
     Score each to see the presence of them. People opening the higher ones may feel represented by many of the previous ones. People in the first ones will not feel represented by the higher ones.

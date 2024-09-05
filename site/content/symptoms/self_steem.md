@@ -1,1 +1,0 @@
-Loving oneself, recognising worth in the weakness, working with the shadow.

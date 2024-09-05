@@ -1,1 +1,0 @@
-Life changes trigger anxiety and can reactive traumas of the past 

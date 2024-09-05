@@ -1,1 +1,0 @@
-Anxiety and depression are commong here. Anger, and other desregulations 
