@@ -1,81 +1,98 @@
 ---
-title: 'Introduction to the Model'
+title: 'CreaTherapy'
 template: coltrane/content.html
-publish_date: 2024-09-05 20:20:01
+publish_date: 2024-07-30 20:20:01
 ---
 
-# From Psychotherapy to CreaTherapy.
-## What is psychotherapy?
-It is a hard question to ask, as there are thousands of approaches to help others to feel better. It is usually a relationship, short or long, where one person helps another to face a problem. 
-Psycho-therapy is a therapy of the ‘psyche’, a name we gave to what before was called soul, that then was referred as mind. In this case, the definition of psyche varies from school to school, some referring to a more soul, dreamlike space, some to a more rational one.
-The second part of the name, therapy, we use for varied topics, from chemical therapy (chemotherapy), physio therapy, music therapy, sound therapy, etc.
-Even inside the psychotherapy field, we find people who work with the body, and even the body in different ways. Some will be targeting muscles and tendons, some sensations, some movements, some positions, etc. 
-We find some traditions as well that work with groups, doing theatre, doing family dynamics work, doing constellations. Some work with couples, some work with a relational view of the dyad therapist-client. 
-Some authors have worked with philosophy, some with cybernetics. Some authors put a higher emphasis in biology, some in rationality, some in human connection.
-As I name all this options, I hope you realise that the name, psychotherapy, seems to not be enough to describe the field. The word ‘psycho’ does not describe well the field, as we work with way more things than the mind. 
-In my PhD thesis I proposed a new concept “assemblage transformation practices”. I like the name in the context, where I was exploring the idea of reality assemblages, but for a common use it is quite clunky. 
-My thesis had a central topic creativity, and after playing with names for a while I (even though talking with my partner, so it betters said we) came up with the idea of CreaTherapy. A concept that aims to open the field, and in a way that is creative from the start.
-A common way of addressing this proliferation is integration, but… 
+## CreaTherapy:
+CreaTherapy is a modular approach to therapy that allows you to creatively build your theory/practice coherently and with solid foundations. 
 
-## Why integration is problematic?
-A common way forward is to think on integration. So, I will address that idea from the beginning. 
-I think it is a great idea. So great that I studied Ken Wilber for years, and I trained in a integrative approach. The problem is: I found many ways of doing integration. 
-I had my own way while in my undergrad, something not too complex but that helped me to organise what I was reading. I used Jung idea of the personality and elements, to organise approaches. 
-Then I learn Wilber, then Opazo. Then I went to a conference of integrative therapies and listen to about 5 more options. I have found quite a few more. 
-But what is the point of integration if we end up with the same problem we started at the beginning: a proliferation of options. 
+To do that, the model I have created separates the core components of psychotherapeutic practices to plug elements into the right places. My idea is to generate a core flexible approach with parts that can lead you to explore those topics deeply. This means you will still be studying the authors and traditions, and you may still belong to them. 
 
-### But it is that a problem?
-That is the thing, it is only a problem from a point of view, but what if, we can promote the creation of infinite models. A space where people can be helped to create their way of working, assuming that it is part of our human condition to be creative and to have a unique perspective? And at the same time, promote spaces of tradition, that can help therapist to feel part of a group with coherent language and values?
-Here is where the project crea-therapy.com, as a web app comes to life. Instead of trying to find the right integration, we may better find ways of promoting safe and efficient model creation.
-When I was learning multiple models of therapy, by reading some of the pioneers of each approach, I came up with the following question:
-What if, what made these therapists great, was not the model they created, but the fact that they created a model?
+The fact that the model is compatible makes it move in a plane that is different to other approaches, and therefore, I call it a (non)approach. This means that CreaTherapy is not competing with other approaches, but it appears here and there to help you create connective tissue between models, therefore giving you freedom of movement. 
 
-### Many paths to arrive to the beach.
-Once we were walking with my partner to the beach, here close to Dunbar, Scotland. This beach has a peculiar way, where we park and then need to have a 15 minutes’ walk to arrive to the water. Sometimes there is some bog like areas on the way, and there are some paths walked by other people. Some are more pronounced some are fainter.
-As we were walking I started to think in a way I quite enjoy, allowing the world to play as a metaphor and help me reach some understanding. 
-In a chaotic system there are infinite ways of walking to the beach. But there are some paths that are safer. Not necessary to follow, but already tried.
-I hope you can grasp what I am going to with this little reflection: in therapy we tend to have infinite paths to help a client, and some are more transited.
-Does it make sense to let the paths to reach infinity?
-Well, there are benefits on having some paths, for instance, in that way you don’t step into more nature in a forest.
-It was in that moment that writing this came to me as a possibility and a desire. Writing a path that I share, a path that does not aim to be the only one, not even in itself be one, but one that may trace a line in the infinite realm of possibilities. Maybe more than a line, a way of making lines that are still open, but contained in safe spaces.
-
-## Intragration
-As an alternative to integration I am proposing a different concept: intragration. The main difference is that instead of using a model, as abstract configuration, the process of intragration means a personal assimilation and accommodation of new knowledge. It does not stop with cognitive coherence, but it continues as personal creation/discovery, and therefore deep understanding of an idea. 
-We are going to keep exploring this notion through the text, but I feel it is important to introduce this alternative from the beginning. I will expand and add granularity to these first conceptual notions.  
-
-## The old traditions.
-I find the idea of traditions quite fascinating. I can of hate them when they become ‘cult like’ and love them when they become a space for sharing where therapist feel free to express their thoughts and experiences. 
-I have the problem that when I read authors inside traditions I find that some of them are closer to other traditions. Sometimes in the granularity of authors, we find that their values and approaches may have diverged from the original quite a lot. 
-I do not see that as a problem, as they keep a coherent language and keep feeling part of their tradition. But we usually do not map those divergencies of epistemology or of field of application. 
-For instance Donald Winnicott can be read quite easily as an humanistic author, and even with mystical notes every so often. However, he was always a psychoanalytic therapist, even being the president of the professional body. Notions like true self, are quite close to authenticity of person centred. The emphasis in spontaneity, playing, instinctive attunement in Winnicott’s work, seems sometimes quite close to Perl’s Gestalt. 
-It is that space, of authors finding new spaces inside the tradition what made me develop a model composed of parts, able to be flexible enough to describe our own process of individuation as a psychotherapist. 
-
-![overview]({% static "/images/model/eagle_eye.png" "eagle" %})
-
-With this image I aim to separate things a bit, at the moment of analysing a therapist or a model. The tradition stays important as a coherent community space, however the philosophy, practical theory and practice are in a space between tradition and therapist.
-We as therapist can individuate inside the tradition, creating/discovering new areas, incorporating new knowledge, applying things in a slightly more coherent way. 
-The area of the person of the therapist becomes the second pilar on the model, which may be using an even bigger space. We as therapist are always in process, we are changing and discovering things. Some ideas apply better for a while and then others make more sense.
-We struggle, we try, we have crisis, we need to re-think our practice and sometimes our whole lives in the process. What we learn is not dissociated from who we are, and that makes therapy a strange space, a profession that works different than any other profession, because the personal and the professional are intimately interconnected.
-I am not advocating for a full merge, and I think it is healthy to arrive to a work/life balance. But after seeing hundreds of colleagues, and myself learning therapeutic approaches and techniques, I can testify we are always using and changing our life as we learn. We suffer, we question, we have a crisis and that’s how we learn.
-Some may be able to hold things apart for a while, but when you start seeing clients, it is your own body, dreams or relational spaces, that tells you at some point: 
-this is not what I expected, this goes so far beyond what I was told.
-
-### Goals:
-I would like to make explicit the goals of the project I am going to unfold in this text:
-•	to be more a template for therapeutic thinking than new tradition,
-•	to be compatible with therapeutic traditions of different origins,
-•	promote personal creation, by seeing theory as a creative/developmental process, and
-•	to create a language for mutual understanding in a space of multiplicity of thinking.
-These goals may be more or less covered with the model I am presenting to you, but I think I have arrived to a satisfactory place (that may have still many iterations to come to fully achieve this points).
-I aim for it to not compete with the current approaches, but to allow users, being therapist of clients, to understand the field, as if adding a layer of tissue between the current knowledge, so there are lines of communication and understanding.
-
-## The model:
 CreaTherapy is composed of three main parts:
+
 -	Philosophy:  a description of notions about reality and knowledge creation
 -	Components: areas of knowledge inside psychotherapy that could belong to any tradition
--	Personal/professional profile: concepts to describe a psychotherapist in their own process.
-There is a second layer that will need more space at a later stage, which include: 
+-	Personal/professional profile: concepts to describe a psychotherapist in their process. I aim to highlight your style and help you find your individuation path.
+- Coherent discourse and values belong or are not to a tradition (you may create coherence on your own or based on a tradition).
+
+There is a second layer that involves more of my research into psychotherapy, which includes:
+
 -	a broad and flexible developmental notion
 -	a notion about shadow and shadow work
 -	therapeutic principles to guide a process
-This second part include more of my own opinions, while the first part tries to give a more overarching view of the field. I have consciously narrated the text with my own voice, however the voice from where this emerged it is quite separate from my own identity, as some sort of abstract template that helps me organise my knowledge. I say this because I feel the abstraction can be used in multiple ways, many of which I may not be conscious about. I love seeing multiple interpretations in a model, and it has happened every time I explain it, as each colleague makes different use of the same concepts (this to say: be free to think in your own way, my way is only one possible example of use of these concepts).
+
+## Philosophy
+The philosophical layer is the foundation of anyone's thinking, and we do not talk about this enough. We may times mask our ontology, the reality assumptions we are making all the time.
+
+If, as a therapist, I believe in objective reality, that may clash with the idea of subjective reality of the model I may be using. For instance, I believe in science and a stable and measurable world, but then I am working in a person-centred approach that has evolved as deeply constructivist. This means that in session, I forget about any stable reality, and the only one that matters is my client's version of reality because everyone has their own reality. 
+
+Here, we start having a few problems. First, quite quickly, you will find yourself not being coherent with yourself or with your client. When we explore each other's realities more and more, we start seeing we differ in fundamental ways. How can I maintain my 'coherence' person-centred principle if I cannot express my different reality with my client? How can I be person-centred if I cannot talk about science with my colleagues?
+
+My answer to that is quite simple: we move between subjective positions, and those have different reality perspectives. We do not need to keep a complete coherence of ontology, but we do need to understand those transitions to be coherent at a 'meta' level.
+
+Even though each of these traditions has sub-groups (yes, all of this keeps opening up when you keep studying), I have narrowed the central ontological positions to seven options: 
+
+-	Phenomenological: focus on personal experience, direct referents, and perception.
+-	Hermeneutic: focus on interpretation, symbols, and horizon of meaning.
+-	Cybernetic: focuses on processes and patterns, social systems, biological systems, and mind systems of information. 
+-	Scientific: Focus on testing and trials (isolated experimentation) and statistical analysis, evidence-based, and cumulatively truth. 
+-	Spiritual: trust in the goodness and natural unfolding of entities guided by natural, immanent or transcendental forces.
+-	Constructive: Focus on reality construction and unique realities.
+-	Participatory: focus on assemblage with the world, abstract/practical, unique/real experience. 
+
+You may feel more inclined to one of these, and your inclination may change over time. The ideas and practices you read and see if other people are grounded in one of these options. So, we need to understand the implicit assumptions of a practice and move some of those when we would like to use it on our own. 
+
+Coming back to our scientific and person-centred therapist, we can see that the same Rogers was quite scientific at the beginning. He used quantitative research to analyse effective therapists, being the first evidence-based therapist in history. The following evidence is compatible with being person-centred, but the movement has philosophically moved towards constructive philosophies because they help a lot to understand people.
+
+So what do we do? Some scientists are more positivistic than others, but most these days are post-positivistic. This means that they do not believe in direct access to reality, and that is why they try to prove themselves wrong. Understanding science a bit deeper leads us to see that there is a relationship between the instruments and how they shape what we can perceive, and good science tries to triangulate with multiple instruments of measurement. 
+
+Quite easily now, we can have a post-positivistic view of therapy, where we understand that individuals have different measurements of reality, and that may explain our fundamental differences in understanding. Some scientists have moved to a participatory ontology, which moves this forward to say that we participate in the creation of reality with our engagement with it.
+
+The constructivist lens is still helpful and does not need to be reduced to a postpositivistic or participatory lens. I can have meta-philosophical coherence and say that even though I am primarily postpositivistic, I think that only with a constructivist lens can I deeply understand others. Therefore, it is the 'best instrument' for that context. 
+
+This is an example of making 'coherence' at a philosophical level. These types of movements and reflections will allow us to then plug knowledge more freely when we read someone coming from a different 'place'.
+
+## components
+Components aim to separate knowledge and techniques from the values, narratives, and philosophies a practitioner needs. This separation is not always easy because many techniques and practices are deeply embedded in the tradition's network.
+
+I am proposing to create groups of core components, areas that group therapeutic knowledge. From those, I aim to point towards embedded knowledge that needs to be understood in their own network of coherent meaning. 
+
+For example, one component group is the subjective, and inside it, we find the component 'thought'. Inside, we can find multiple ways of working with thoughts, each from a different frame of reference. We can explore thoughts from Bion, a psychoanalyst in the object relations tradition, or from Lacan, the creator of his own school. We can explore thoughts taught by Cognitive behavioural therapy (CBT) and inside CBT first, second, or third generation—the first saw behaviour as the centre and thoughts as one more behaviour. The second generation saw thoughts as a core scheme to change behaviour and emotion. The third incorporates mindfulness and does not try to change thoughts but to let them go. 
+
+Each of these views of thought belongs to slightly different modes of seeing the world, humanity, health, etc. Each belongs to a distinct tradition of knowledge. When we can see where they are coming from, we can understand those insights more deeply and asses when those techniques are more valuable. We can also build our understanding of 'working with thoughts' in session in a coherent way with us and our path. We can also understand deeply how our clients may see 'thoughts' as we learn about diverse perspectives and position ourselves as belonging to one: 
+
+> our own perspective, positioned inside a network of perspectives. 
+
+Having a positioned perspective goes beyond perspectives. Knowing we are making a choice means we understand diversity. 
+
+## Profile
+I have developed a series of profiles for therapists that aim to help you see the diversity of approaches, not only from schools of thinking but also from natural dispositions towards caring for others. 
+
+I do not believe we are one of the positions, but we tend towards some, and we need to learn from their contrary positions.
+
+For example, the 'Compassionate' is composed of being 'follower' over 'propositive', and being 'acceptant' over 'challenger'.  This does not mean you have low levels on the others; sometimes, we have developed many configurations. Therefore, I did not make a continuum for the choices but two different scales, and you can easily have multiple tests for your record (there is no attempt to have hidden numbers; it is only a sum behind).
+
+Sometimes, some of the positions are blocked for us; deep-rooted traumatic relationships have blocked an area of care for us. When that happens, it is easy to polarise into one position and then fall into its shadow aspects.
+
+In this case, the Compassionate can polarise into not setting enough boundaries to protect their needs. The compassionate benefits from understanding the 'Changer', a position with the opposite configuration: high in propositive and challenger. This helps the Compassionate set boundaries when needed without losing its compassionate position as its centre. 
+
+
+## Coherence
+A big part of the creative part of CreaTherapy comes at this point: how do we make coherence from the parts?
+
+We have seen research after research that therapy efficacy does not come from years of study, nor the tradition you study, not even from years of practice. It seems to come from the quality of the connection between therapist and client, the capacity to be convincing when practising by conveying the feeling of being coherent in thought and action.
+
+This means that what makes a good therapist is not the learning itself but learning rooted in someone being authentic, someone who speaks from experience. A therapist speaking from their journey has a more significant impact than someone who speaks from the books. 
+
+Knowledge is essential because it helps us make sense of our chaotic experiences and remain coherent in a complex and painful world. But the most crucial part is that a therapist 'creates and discovers' its practice. The practice and the therapist are the same, and we can share the intimacy and fragility of being human and make sense of it together as two participants in the journey. 
+
+One of the ideas that I had when learning psychology was
+> What if what made the founders great was that they created a therapy?
+> Should not we all create/discover our therapy?
+
+This is the purpose of CreaTherapy as a (non)approach, not trying to give you the solution, but some foundations for you to make sense of therapy, your therapy, a therapy you create. 
+
+The process of coherence is personal and also collective.  Developmentally, we tend to oscillate between being more collective and more individualistic, and I think those two poles are always in tension in our human lives. I think that our relationship with the traditions and collective moves through the path, and sometimes we need to belong, and sometimes we need to make our own choices. Keeping coherence with your path (and having ethical considerations to make your work safe and legal) gives ample space for play and discovery. 

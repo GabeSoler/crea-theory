@@ -6,11 +6,24 @@ from coltrane import initialize, run
 
 ALLOWED_HOSTS = [".localhost", "127.0.0.1", "[::1]", "0.0.0.0"]
 
+MISTUNE_PLUGINS = [
+        "strikethrough",
+        "footnotes",
+        "table",
+        "task_lists",
+        "def_list",
+        "abbr",
+        "mark",
+        "insert",
+        "superscript",
+        "subscript",
+    ]
 
 wsgi = initialize(
     ALLOWED_HOSTS=ALLOWED_HOSTS,
     TIME_ZONE = 'Europe/London',
     CACHE = 'memory',
+    MISTUNE_PLUGINS = MISTUNE_PLUGINS
 )
 
 

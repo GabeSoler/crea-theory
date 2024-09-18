@@ -1,4 +1,16 @@
-.img-formated {
-    width:90vw;
+image,img {
+    max-width:90vw;
 }
+
+.image-format {
+    max-width:400px;
+}
+blockquote {
+    background-color: rgb(233, 240, 241);
+    border-left: 0.3rem;
+    border-color: rgb(37, 44, 44);
+    padding:0.5rem;
+    margin-left: 2%;
+}
+
 
