@@ -1,8 +1,10 @@
 ---
-title: 'Fifth Gent'
-template: coltrane/content.html
-publish_date: 2024-07-30 20:20:01
+title: 'Values'
+order: 3
+template: coltrane/group-nav.html
+publish_date: 2024-09-17 20:20:01
 ---
+
 
 - Values system/worldview (based on Spiral dynamics; Robert Kegan) Having multiple or changes in time is expected and may be a sing of self complexity.
     

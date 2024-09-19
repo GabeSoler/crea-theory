@@ -1,6 +1,7 @@
 ---
 title: 'Extended Awareness'
-template: coltrane/content.html
+order: 3
+template: coltrane/group-nav.html
 publish_date: 2024-09-17 20:20:01
 ---
 
@@ -8,6 +9,7 @@ publish_date: 2024-09-17 20:20:01
 # Extended Awareness:
 This area is about what lays beyond the subjective. This are common spaces for many approaches, but they are not so easily grasped by a client or a therapist in training. They usually need many experiences and theoretical knowledge to use and understand. 
 
+![Extended]({% static 'images/components/extended.png'%})
 ## Dreaming:
 Dreaming and other dreamlike experiences have been a staple in psychotherapy since Freud’s Interpretation of Dreams. There are many ways of approaching dreams and working with them. 
 Traditionally we would interpret the symbols, but we can also amplify the archetypes, do active imagination, enact them individually or in groups, write them as narrative, etc.

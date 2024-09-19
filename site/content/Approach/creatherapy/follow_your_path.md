@@ -1,6 +1,7 @@
 ---
 title: 'Follow your Path'
-template: coltrane/content.html
+order: 3
+template: coltrane/group-nav.html
 publish_date: 2024-07-30 20:20:01
 ---
 # Follwo your Path

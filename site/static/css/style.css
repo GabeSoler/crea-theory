@@ -1,16 +1,17 @@
 image,img {
-    max-width:90vw;
+    max-width:80%;
 }
 
-.image-format {
-    max-width:400px;
-}
+
 blockquote {
     background-color: rgb(233, 240, 241);
-    border-left: 0.3rem;
     border-color: rgb(37, 44, 44);
+    border-left: 0.5rem;
     padding:0.5rem;
     margin-left: 2%;
 }
 
+.bg-dark-blue {
+    background-color:#003449;
 
+}

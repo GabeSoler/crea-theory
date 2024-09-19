@@ -1,15 +1,16 @@
 ---
 title: 'Subjective'
-template: coltrane/content.html
+order: 2
+template: coltrane/group-nav.html
 publish_date: 2024-07-30 20:20:01
 ---
 
 # Subjective
 
-The subjective group aims to encapsulate some of the common areas we work in therapy. It is easy to confuse it with the identity group, but the main difference is that in these five we tend to be ‘subject’ to them and therefore they feel like further away from our worries. While in the identity group, those areas are part of our day to day worries, are areas that seem problematic by themselves, while the subjective ones are problematic only if someone point them out.
-Please remember, these are broad areas or flavours, and any particular technique may belong to more than one. 
+The subjective group aims to encapsulate some of the common areas we work in therapy. It is easy to confuse it with the identity group, but the main difference is that in these five, we tend to be ‘subject’ to them; therefore, they feel further away from our worries. In the identity group, those areas are part of our day-to-day worries and seem problematic by themselves, while the subjective ones are problematic only if someone points them out.
+Please remember that these are broad areas or flavours, and any particular technique may belong to more than one. 
 
-[Subjective]({% static 'images/components/subjective.png'%})
+![Subjective]({% static 'images/components/subjective.png'%})
 ## Body: 
 Area of work that refers to the physical body in its different forms: as flesh (tendons, muscles), as experiential body, as sensations, as positions, as gestures, as body language, etc. 
 I am explicitly naming different ways of seeing the body as there are approaches that emphasise each of those areas. It is easier to group them as body practices, but as we explore we see there are many ways of addressing our body. 

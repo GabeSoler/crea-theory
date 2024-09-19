@@ -1,15 +1,22 @@
 ---
 title: 'Identity'
-template: coltrane/content.html
+order: 6
+template: coltrane/group-nav.html
 publish_date: 2024-09-17 20:20:01
 ---
 
 # Identity:
-The identity group aims to describe common tensions in our life and the life of our clients. As I said before, we tend to worry about these topics a lot more than about how we think or feel. We feel or think about them, as we try to find our path through life, and when it does not work, we may resort to think and feel about thinking and feeling.
-I think that as a way of validating our profession we have used ‘technical terms’, that sometimes create distance between life and therapy. I think technical language is important, but here I am explicitly trying to present identity as something we can feel part of our identity. 
-Even though central to our life’s, it has not been a topic taken broadly by all the therapeutic approaches, or at least not as I am presenting it here. Our idea of the ‘ego’ or ‘self’ not always include a more direct naming of its components. ‘Ego’ is referred as a mediator between reality and inner impulses in Freud, and ‘self’ varies in its meaning, from body, to totality, to deep soul, to spontaneity, to so many other forms. 
-The approach where I trained had a section called the ‘self-system’ (Opazo), that involved some of these topics, but from a quite different angle. Focusing in ‘systems’ and ‘functions’ to keep us ‘balanced’. 
-I have opted for these names as they feel more directly involved in our daily life, avoiding the more technical forms. With technical I mean we could refer to values as ‘ego ideals’ or to sex as ‘psychosexuality’.  Or about ‘meaning function’ instead of values. Referring to the belonging as a ‘support system’, takes away much of the lived experience of belonging. A more colloquial use of words may help us to be more open (and actual), and to explore these flavours of psychotherapy in a way that can receive multiple (technical) names inside them.
+The identity group aims to describe common tensions in our life and the life of our clients. As I said before, we tend to worry about these topics a lot more than about how we think or feel. We feel or think about them as we try to find our path through life, and when it does not work, we may resort to thinking and feeling about thinking and feeling.
+
+![identity]({% static 'images/components/identity.png'%})
+
+We have used ‘technical terms’ to validate our profession, which sometimes creates a distance between life and therapy. I think technical language is important, but here, I am explicitly trying to present identity as something we can feel part of. 
+
+Even though it is central to our lives, it has not been a topic taken broadly by all therapeutic approaches, or at least not as I am presenting it here. Our idea of the ‘ego’ or ‘self’ does not always include a more direct naming of its components. In Freud, the ‘Ego’ is referred to as a mediator between reality and inner impulses, and the ‘self’ varies in its meaning, from body to totality, to deep soul, to spontaneity, to so many other forms. 
+The approach where I trained had a section called the ‘self-system’ (Opazo) that involved some of these topics but from a different angle. It focused on ‘systems’ and ‘functions’ to keep us ‘balanced’. 
+
+I have opted for these names as they feel more directly involved in our daily lives, avoiding the more technical forms. With technical, I mean we could refer to values as ‘ego ideals’ or to sex as ‘psychosexuality’.  Or about ‘meaning function’ instead of values. Referring to belonging as a ‘support system’ takes away much of the lived experience of belonging. A more everyday use of words may help us to be more open (and actual), and to explore these flavours of psychotherapy in a way that can receive multiple (technical) names inside them.
+
 
 ## Individuation:
 A process proposed by Jung, would be an inner call, or an inner guide, that pushes us to find who we are.

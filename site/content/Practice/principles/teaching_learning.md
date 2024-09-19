@@ -1,10 +1,11 @@
 ---
-title: 'Fifth Gent'
-template: coltrane/content.html
+title: 'Teaching and Learning'
+order: 8
+template: coltrane/group-nav.html
 publish_date: 2024-07-30 20:20:01
 ---
 
-Here I mention some important components for a healthy development. As our mind goes beyond rational more practices are needed to manage the higher levels of development. Specially if there is spiritual awakening, because it demand extra sharpness in the inter and intra gratiom of all the parts of the self.
+Here, I mention some important components for healthy development. As our mind goes beyond rationality, more practices are needed to manage the higher levels of development, especially spiritual awakening, which demands extra sharpness in the inter- and intra-relationship of all the parts of the self.
 
 Mindfulness and phenomenology help us ground theoretical knowledge in experience. Narrative to create inner coherence. Arts to master more specific movements in our different bodies (gross, subtle, causal, non dual)
 

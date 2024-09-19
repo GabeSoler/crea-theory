@@ -1,14 +1,17 @@
 ---
 title: 'Contextual'
-template: coltrane/content.html
+order: 4
+template: coltrane/group-nav.html
 publish_date: 2024-09-17 20:20:01
 ---
 
 # Contextual
-The contextual group aims to describe the work we do around the life of a client. When we address their relationships, their work, the things they like, the people they love. Sometimes we work in routines, or on making a change in their life. 
+The contextual group aims to describe the work we do around the life of a client. When we address their relationships, work, the things they like, the people they love. Sometimes we work in routines or on making a change in their life. 
 
-## Relational:
-The relational group has been growing over the last few years, being now part of most approaches. We have accepted that it is the relationship what shapes our minds when babies and as we keep growing. Notions like attachment and attunement, are now common ground for most of us.
+![Subjective]({% static 'images/components/contextual.png'%})
+
+## Relational:
+The relational group has been growing over the last few years and is now part of most approaches. We have accepted that the relationship shapes our minds when we are babies and as we grow. Notions like attachment and attunement are now common ground for most of us.
 We have the relational psychoanalysis group, who has described detailed interactions in the dyad, where two unconscious share a common space; and there are also nuances, like the Intersubjective approach, that emphasises some distance and analysis as we merge in the relationship. 
 We find different ways of addressing the relational space, with different names, but overall we talk about a natural connection and sharing of emotions or unconscious processes.
 

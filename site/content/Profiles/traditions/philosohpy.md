@@ -1,3 +1,9 @@
+---
+title: 'Philosophy'
+order: 2
+template: coltrane/group-nav.html
+publish_date: 2024-07-30 20:20:01
+---
 # Philosophy:
 The philosophical layer is the more abstract plane of any practice. It addresses the notions of reality, knowledge production, and ethics. We all have some assumptions about these three areas, but it is quite helpful to make them explicit and to see if there are like-minded people in the field.
 

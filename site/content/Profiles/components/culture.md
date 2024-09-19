@@ -1,13 +1,14 @@
 ---
 title: Culture
-template: coltrane/content.html
+order: 5
+template: coltrane/group-nav.html
 publish_date: 2024-07-30 20:20:01
 ---
 
 
 # Culture:
-The field of culture is so important to our practice that I am including it as another group of five. It does not fully belong to a therapeutic approach, and that is part of my critic to the field. Sometimes we focus so much into the ‘psy’ that we forget other areas that influence our work. 
-
+The field of culture is so important to our practice that I am including it as another group of five. It does not fully belong to a therapeutic approach, and that is part of my critic to the field. Sometimes, we focus so much on the ‘psy’ that we forget other areas that influence our work. 
+![Subjective]({% static 'images/components/culture.png'%})
 ## Anthropology:
 The study of cultures in their practices seems like the field best represent this group. I think that as therapist we are doing anthropology even if we do not realise it. I do not know enough about this field, but a notion of different cultures, how they see life, how the behave, how different we can be, help our process as therapists. 
 Sometimes we work with multiple backgrounds and we need to keep an open mind to get their own frame of reference. The meaning of practices, the rituals, the connection with a context that is far from our own.

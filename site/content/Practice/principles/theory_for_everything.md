@@ -1,15 +1,16 @@
 ---
-title: 'Fifth Gent'
-template: coltrane/content.html
+title: 'A theory for everything'
+order: 9
+template: coltrane/group-nav.html
 publish_date: 2024-07-30 20:20:01
 ---
 ### A theory for everything: bio-logic
 
-There is a simple model that helps me to understand multiple phenomenon, from mind, to biology, groups, sociology, ecology, economics.
+There is a simple model that helps me understand multiple phenomena, from mind to biology, groups, sociology, ecology, and economics.
 
-It's simple, and for the same reason useful.
+It's simple and, for the same reason, useful.
 
-- First there is creative chaos from where some functional element emerge
+- First, there is creative chaos from where some functional elements emerge
 - Then those come together and create a border, defining an identity
 - The identity assembles to a territory of safety, feeding, playing, learning and relating.
 - Then there are others doing the same, and we create synergy.

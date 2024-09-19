@@ -1,6 +1,7 @@
 ---
 title: 'Knots'
-template: coltrane/content.html
+order: 8
+template: coltrane/group-nav.html
 publish_date: 2024-07-30 20:20:01
 ---
 This idea is that our minds are made of some sort of a crochet pattern. Each knot combines different parts of ourselves, mind, body and affect. Lacan: real, symbolic, imaginary.
