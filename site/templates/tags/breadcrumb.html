@@ -1,7 +1,7 @@
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-        {% for name,address in url_dic %}
-      <li class="breadcrumb-item"><a href="{{address}}">{{name}}</a></li>
+      {% for address in url_list %}
+      <li class="breadcrumb-item"><a href="{{address}}">{{address|last_url}}</a></li>
         {% endfor %}
     </ol>
   </nav>

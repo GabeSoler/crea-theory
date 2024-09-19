@@ -3,43 +3,41 @@ from django.template.defaultfilters import stringfilter
 
 register = template.Library()
 
+def path_list(url:str)->list:
+    url = str(url)
+    broken_url = url.strip()
+    broken_url = broken_url.split("/")
+    return broken_url
 
 @register.filter
 @stringfilter
 def last_url(value:str,place=-1):
-    place = int(place)
-    value = value.strip()
-    value = value.split("/")
+    if value.endswith("/"):
+        value = value[:-1]
+    value = path_list(value)
     value = value[place]
     return value
 
 @register.filter
 @stringfilter
-def url_section(value:str,until=-1):
-    until = int(until)
-    value = value.strip()
-    value = value.split("/")
-    values = value[0:until]
-    url = "/"
-    for v in values:
+def url_section(value:str,until=1)->str:
+    url_parts = path_list(value)
+    url_selected = url_parts[:until]
+    url_section = "/"
+    for v in url_selected:
         part = f"{v}/"
-        url += part
-    return url
+        url_section += part
+    return url_section
 
 
-@register.inclusion_tag("tags/breadcrumb.html",takes_context=True)
-def breadcrumb(context):
-    url = context["slug"]
-    url = str(url)
-    broken_url = url.strip()
-    broken_url = broken_url.split("/")
-    url_dic = {}
-    i = 0
-    for u in broken_url:
-        i += 1
-        section = url_section(i)
-        section_dic = {u:section}
-        url_dic.update(section_dic)
-    return url_dic
+@register.inclusion_tag("tags/breadcrumb.html")
+def breadcrumb(url:str):
+    path_list_local = path_list(url)
+    list_length = len(path_list_local)+1
+    url_list = []
+    for i in range(0,list_length):
+        section = url_section(url,i)
+        url_list.append(section)
+    return {"url_list":url_list}
 
 

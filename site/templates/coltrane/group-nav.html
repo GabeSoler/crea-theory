@@ -15,10 +15,9 @@
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          {% breadcrumb %}
-          {% with request|parent|parent as back_to %}
-            <a href="{{back_to}}">Back to {{back_to|last_url}}</a>
-          {% endwith %}
+          {% breadcrumb slug %}
+
+          <a href="{{slug|url_section:-2}}">Back to {{slug|last_url:-3}}</a>
             <ul class="nav flex-column">
                 {% for link in links %}
                     <li class="nav-item">
