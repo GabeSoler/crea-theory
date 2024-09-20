@@ -1,5 +1,6 @@
 ---
-title: 'Third Gent'
+title: 'Third Generation'
+order: 3
 template: coltrane/content.html
 publish_date: 2024-07-30 20:20:01
 ---
@@ -61,7 +62,7 @@ Third in the one is the capacity to keep a third position even with someone else
 
 # Analytic third
 
-Based in the work of Tomas Ogden, he proposes there is an emergent unconscious between analyst and client. 
+Based in the work of Tomas Ogden, he proposes there is an emerGeneration unconscious between analyst and client. 
 
 In this position there is a possibility of dreaming the dreams of others, and help in this way with conflicts over our heads.
 

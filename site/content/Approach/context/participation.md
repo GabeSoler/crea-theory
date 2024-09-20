@@ -1,10 +1,9 @@
 ---
 title: 'Participation'
+order: 6
 template: coltrane/content.html
 publish_date: 2024-07-30 20:20:01
 ---
-
-[Crea-therapy ](https://www.notion.so/Crea-therapy-c4c7d37aa26c41eb8b95219db94ce0c1?pvs=21)
 
 ## Participatory ontology and the current academic divide
 

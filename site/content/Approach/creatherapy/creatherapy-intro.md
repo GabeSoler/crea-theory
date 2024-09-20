@@ -1,11 +1,11 @@
 ---
-title: 'CreaTherapy'
+title: 'CreaTherapy:intro'
 order: 1
 template: coltrane/group-nav.html
 publish_date: 2024-07-30 20:20:01
 ---
 
-## CreaTherapy:
+#  CreaTherapy:
 CreaTherapy is a modular approach to therapy that allows you to creatively build your theory/practice coherently and with solid foundations. 
 
 To do that, the model I have created separates the core components of psychotherapeutic practices to plug elements into the right places. My idea is to generate a core flexible approach with parts that can lead you to explore those topics deeply. This means you will still be studying the authors and traditions, and you may still belong to them. 
