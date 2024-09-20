@@ -12,10 +12,16 @@
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap&text=CreaTherapy" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap&text=CreaTheory" rel="stylesheet"> 
 
     
-    
+     <!--favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/static/favicon/site.webmanifest"> 
+ 
+
 
 </head> <!-- end of head-->
 
@@ -24,7 +30,7 @@
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary boder position-sticky" data-bs-theme="dark" id="navbar">
     <div class="container-fluid">
         <a class="navbar-brand text-light" style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="/" id="nav-title">
-            CreaTheory<span class="text-light" style="font-family:verdana,san-serif;">-Transitional Space</span> </a>
+            CreaTheory<span class="text-light" style="font-family:verdana,san-serif;"></span> </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
@@ -36,16 +42,16 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb2 mb-md-0"> <!-- "me" refers to left, and "ms" to right -->
                 <li class="nav-item">
-                  <a class="nav-link" href="/Profiles/profiles_index/">
+                  <a class="nav-link" href="/Profiles/">
                     Profiles</a></li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/Practice/practice_index/">
+                  <a class="nav-link" href="/Practice/">
                     Practice</a></li>                
                 <li class="nav-item">
-                  <a class="nav-link" href="/Approach/approach_index/">
+                  <a class="nav-link" href="/Approach/">
                     Approach</a></li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/Growth/growth_index/">
+                  <a class="nav-link" href="/Growth/">
                     Gowth</a></li>
             </ul><!-- End of links on left side of nvbar -->
             
@@ -67,9 +73,87 @@
 
 
 
+
+
+      <button class="btn btn-info position-fixed" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">>></button>
+ 
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-primary" id="offcanvasScrollingLabel">/Profiles/Components</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      
+      <li class="breadcrumb-item"><a href="/"></a></li>
+        
+      <li class="breadcrumb-item"><a href="/Profiles/">Profiles</a></li>
+        
+      <li class="breadcrumb-item"><a href="/Profiles/components/">components</a></li>
+        
+      <li class="breadcrumb-item"><a href="/Profiles/components/subjective/">subjective</a></li>
+        
+    </ol>
+  </nav>
+
+          <a href="/Profiles/">Back to Profiles</a>
+            <ul class="nav flex-column">
+                
+                    <li class="nav-item">
+                      <a class="nav-link
+                      
+                      aria-current="page"
+                      href="/Profiles/components/components_intro/">Component&#x27;s Intro</a>
+                    </li>
+                      
+                    <li class="nav-item">
+                      <a class="nav-link
+                      
+                      aria-current="page"
+                      href="/Profiles/components/subjective/">Subjective</a>
+                    </li>
+                      
+                    <li class="nav-item">
+                      <a class="nav-link
+                      
+                      aria-current="page"
+                      href="/Profiles/components/extended/">Extended Awareness</a>
+                    </li>
+                      
+                    <li class="nav-item">
+                      <a class="nav-link
+                      
+                      aria-current="page"
+                      href="/Profiles/components/contextual/">Contextual</a>
+                    </li>
+                      
+                    <li class="nav-item">
+                      <a class="nav-link
+                      
+                      aria-current="page"
+                      href="/Profiles/components/culture/">Culture</a>
+                    </li>
+                      
+                    <li class="nav-item">
+                      <a class="nav-link
+                      
+                      aria-current="page"
+                      href="/Profiles/components/identity/">Identity</a>
+                    </li>
+                      
+                      </ul>        
+                    
+                    </div>
+      </div>
+
+ 
+
+
+
     
 
-<div class="card bg-white-green col-12 col-md-10 mx-auto">
+<div class="card bg-white-green col-12 col-md-10 mx-auto mb-2">
 
 <h4 class="card-header display-3 bg-gray-green text-dark">Subjective</h4>
 
@@ -78,9 +162,9 @@
 
 <div class="container ">
 <h1 id="subjective">Subjective</h1>
-<p>The subjective group aims to encapsulate some of the common areas we work in therapy. It is easy to confuse it with the identity group, but the main difference is that in these five we tend to be &lsquo;subject&rsquo; to them and therefore they feel like further away from our worries. While in the identity group, those areas are part of our day to day worries, are areas that seem problematic by themselves, while the subjective ones are problematic only if someone point them out.
-Please remember, these are broad areas or flavours, and any particular technique may belong to more than one.</p>
-<p><a href="/static/images/components/subjective.png">Subjective</a></p>
+<p>The subjective group aims to encapsulate some of the common areas we work in therapy. It is easy to confuse it with the identity group, but the main difference is that in these five, we tend to be &lsquo;subject&rsquo; to them; therefore, they feel further away from our worries. In the identity group, those areas are part of our day-to-day worries and seem problematic by themselves, while the subjective ones are problematic only if someone points them out.
+Please remember that these are broad areas or flavours, and any particular technique may belong to more than one.</p>
+<p><img src="/static/images/components/subjective.png" alt="Subjective"/></p>
 <h2 id="body">Body:</h2>
 <p>Area of work that refers to the physical body in its different forms: as flesh (tendons, muscles), as experiential body, as sensations, as positions, as gestures, as body language, etc.
 I am explicitly naming different ways of seeing the body as there are approaches that emphasise each of those areas. It is easier to group them as body practices, but as we explore we see there are many ways of addressing our body.</p>
@@ -104,6 +188,8 @@ Some therapist and approaches put more emphasis in this area, like in Gestalt or
 
 
 </div>
+
+
 
 
 

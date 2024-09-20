@@ -30,7 +30,7 @@ publish_date: 2024-07-30 20:20:01
 </ul>
 
 <h3><a href="/Practice/general_directions/">Symptoms to work with</a></h3>
-{% directory_contents 'Practice/symptoms' order_by='order'as directory_contents %}
+{% directory_contents 'Practice/symptoms' order_by='order' as directory_contents %}
 <a href="/Practice/symptoms/">Symptoms page</a>
 <ul>
 {% for content in directory_contents %}

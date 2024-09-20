@@ -12,10 +12,16 @@
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap&text=CreaTherapy" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap&text=CreaTheory" rel="stylesheet"> 
 
     
-    
+     <!--favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/static/favicon/site.webmanifest"> 
+ 
+
 
 </head> <!-- end of head-->
 
@@ -24,7 +30,7 @@
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary boder position-sticky" data-bs-theme="dark" id="navbar">
     <div class="container-fluid">
         <a class="navbar-brand text-light" style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="/" id="nav-title">
-            CreaTheory<span class="text-light" style="font-family:verdana,san-serif;">-Transitional Space</span> </a>
+            CreaTheory<span class="text-light" style="font-family:verdana,san-serif;"></span> </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
@@ -36,16 +42,16 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb2 mb-md-0"> <!-- "me" refers to left, and "ms" to right -->
                 <li class="nav-item">
-                  <a class="nav-link" href="/Profiles/profiles_index/">
+                  <a class="nav-link" href="/Profiles/">
                     Profiles</a></li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/Practice/practice_index/">
+                  <a class="nav-link" href="/Practice/">
                     Practice</a></li>                
                 <li class="nav-item">
-                  <a class="nav-link" href="/Approach/approach_index/">
+                  <a class="nav-link" href="/Approach/">
                     Approach</a></li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/Growth/growth_index/">
+                  <a class="nav-link" href="/Growth/">
                     Gowth</a></li>
             </ul><!-- End of links on left side of nvbar -->
             
@@ -67,9 +73,87 @@
 
 
 
+
+
+      <button class="btn btn-info position-fixed" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">>></button>
+ 
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-primary" id="offcanvasScrollingLabel">/Profiles/Components</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      
+      <li class="breadcrumb-item"><a href="/"></a></li>
+        
+      <li class="breadcrumb-item"><a href="/Profiles/">Profiles</a></li>
+        
+      <li class="breadcrumb-item"><a href="/Profiles/components/">components</a></li>
+        
+      <li class="breadcrumb-item"><a href="/Profiles/components/identity/">identity</a></li>
+        
+    </ol>
+  </nav>
+
+          <a href="/Profiles/">Back to Profiles</a>
+            <ul class="nav flex-column">
+                
+                    <li class="nav-item">
+                      <a class="nav-link
+                      
+                      aria-current="page"
+                      href="/Profiles/components/components_intro/">Component&#x27;s Intro</a>
+                    </li>
+                      
+                    <li class="nav-item">
+                      <a class="nav-link
+                      
+                      aria-current="page"
+                      href="/Profiles/components/subjective/">Subjective</a>
+                    </li>
+                      
+                    <li class="nav-item">
+                      <a class="nav-link
+                      
+                      aria-current="page"
+                      href="/Profiles/components/extended/">Extended Awareness</a>
+                    </li>
+                      
+                    <li class="nav-item">
+                      <a class="nav-link
+                      
+                      aria-current="page"
+                      href="/Profiles/components/contextual/">Contextual</a>
+                    </li>
+                      
+                    <li class="nav-item">
+                      <a class="nav-link
+                      
+                      aria-current="page"
+                      href="/Profiles/components/culture/">Culture</a>
+                    </li>
+                      
+                    <li class="nav-item">
+                      <a class="nav-link
+                      
+                      aria-current="page"
+                      href="/Profiles/components/identity/">Identity</a>
+                    </li>
+                      
+                      </ul>        
+                    
+                    </div>
+      </div>
+
+ 
+
+
+
     
 
-<div class="card bg-white-green col-12 col-md-10 mx-auto">
+<div class="card bg-white-green col-12 col-md-10 mx-auto mb-2">
 
 <h4 class="card-header display-3 bg-gray-green text-dark">Identity</h4>
 
@@ -78,11 +162,12 @@
 
 <div class="container ">
 <h1 id="identity">Identity:</h1>
-<p>The identity group aims to describe common tensions in our life and the life of our clients. As I said before, we tend to worry about these topics a lot more than about how we think or feel. We feel or think about them, as we try to find our path through life, and when it does not work, we may resort to think and feel about thinking and feeling.
-I think that as a way of validating our profession we have used &lsquo;technical terms&rsquo;, that sometimes create distance between life and therapy. I think technical language is important, but here I am explicitly trying to present identity as something we can feel part of our identity.
-Even though central to our life&rsquo;s, it has not been a topic taken broadly by all the therapeutic approaches, or at least not as I am presenting it here. Our idea of the &lsquo;ego&rsquo; or &lsquo;self&rsquo; not always include a more direct naming of its components. &lsquo;Ego&rsquo; is referred as a mediator between reality and inner impulses in Freud, and &lsquo;self&rsquo; varies in its meaning, from body, to totality, to deep soul, to spontaneity, to so many other forms.
-The approach where I trained had a section called the &lsquo;self-system&rsquo; (Opazo), that involved some of these topics, but from a quite different angle. Focusing in &lsquo;systems&rsquo; and &lsquo;functions&rsquo; to keep us &lsquo;balanced&rsquo;.
-I have opted for these names as they feel more directly involved in our daily life, avoiding the more technical forms. With technical I mean we could refer to values as &lsquo;ego ideals&rsquo; or to sex as &lsquo;psychosexuality&rsquo;.  Or about &lsquo;meaning function&rsquo; instead of values. Referring to the belonging as a &lsquo;support system&rsquo;, takes away much of the lived experience of belonging. A more colloquial use of words may help us to be more open (and actual), and to explore these flavours of psychotherapy in a way that can receive multiple (technical) names inside them.</p>
+<p>The identity group aims to describe common tensions in our life and the life of our clients. As I said before, we tend to worry about these topics a lot more than about how we think or feel. We feel or think about them as we try to find our path through life, and when it does not work, we may resort to thinking and feeling about thinking and feeling.</p>
+<p><img src="/static/images/components/identity.png" alt="identity"/></p>
+<p>We have used &lsquo;technical terms&rsquo; to validate our profession, which sometimes creates a distance between life and therapy. I think technical language is important, but here, I am explicitly trying to present identity as something we can feel part of.</p>
+<p>Even though it is central to our lives, it has not been a topic taken broadly by all therapeutic approaches, or at least not as I am presenting it here. Our idea of the &lsquo;ego&rsquo; or &lsquo;self&rsquo; does not always include a more direct naming of its components. In Freud, the &lsquo;Ego&rsquo; is referred to as a mediator between reality and inner impulses, and the &lsquo;self&rsquo; varies in its meaning, from body to totality, to deep soul, to spontaneity, to so many other forms.
+The approach where I trained had a section called the &lsquo;self-system&rsquo; (Opazo) that involved some of these topics but from a different angle. It focused on &lsquo;systems&rsquo; and &lsquo;functions&rsquo; to keep us &lsquo;balanced&rsquo;.</p>
+<p>I have opted for these names as they feel more directly involved in our daily lives, avoiding the more technical forms. With technical, I mean we could refer to values as &lsquo;ego ideals&rsquo; or to sex as &lsquo;psychosexuality&rsquo;.  Or about &lsquo;meaning function&rsquo; instead of values. Referring to belonging as a &lsquo;support system&rsquo; takes away much of the lived experience of belonging. A more everyday use of words may help us to be more open (and actual), and to explore these flavours of psychotherapy in a way that can receive multiple (technical) names inside them.</p>
 <h2 id="individuation">Individuation:</h2>
 <p>A process proposed by Jung, would be an inner call, or an inner guide, that pushes us to find who we are.
 A some sort of inner compass that sometimes knocks at our door and asks us to make difficult decisions for the sake of being coherent with who are becoming.
@@ -115,6 +200,8 @@ Sometimes we are deeply identified with a role, sometimes we feel alienated by i
 
 
 </div>
+
+
 
 
 

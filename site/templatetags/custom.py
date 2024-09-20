@@ -14,6 +14,8 @@ def path_list(url:str)->list:
 def last_url(value:str,place=-1):
     if value.endswith("/"):
         value = value[:-1]
+    if value.startswith("/"):
+        value = value[1:]
     value = path_list(value)
     value = value[place]
     return value
@@ -38,6 +40,6 @@ def breadcrumb(url:str):
     for i in range(0,list_length):
         section = url_section(url,i)
         url_list.append(section)
-    return {"url_list":url_list}
+    return {"url_list":url_list[1:]}
 
 

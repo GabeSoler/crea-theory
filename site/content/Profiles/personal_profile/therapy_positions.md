@@ -11,7 +11,7 @@ Caring or therapeutic positions aim to show the complexities of our caring and h
 
 This model unpacks some of the most important elements of our psychotherapy landscape. Yes, even more than the components and philosophy.
 
-![positions]({% static 'images/profiles/positions-circle.png' %}){img-formated}
+![positions]({% static 'images/profiles/positions-circle.png' %})
 
 When I talk with therapists, I feel is this model what comes first to my mind. Most of us identify with one of the main groups of therapy: 
 -	Psychodynamic: group that analyses and makes interpretations. It defines a broader spectrum than psychoanalysis. The focus is on hermeneutic interpretation of the relationship and unconscious.

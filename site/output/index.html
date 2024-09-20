@@ -12,10 +12,16 @@
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap&text=CreaTherapy" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap&text=CreaTheory" rel="stylesheet"> 
 
     
-    
+     <!--favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/static/favicon/site.webmanifest"> 
+ 
+
 
 </head> <!-- end of head-->
 
@@ -24,7 +30,7 @@
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary boder position-sticky" data-bs-theme="dark" id="navbar">
     <div class="container-fluid">
         <a class="navbar-brand text-light" style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="/" id="nav-title">
-            CreaTheory<span class="text-light" style="font-family:verdana,san-serif;">-Transitional Space</span> </a>
+            CreaTheory<span class="text-light" style="font-family:verdana,san-serif;"></span> </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
@@ -36,16 +42,16 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb2 mb-md-0"> <!-- "me" refers to left, and "ms" to right -->
                 <li class="nav-item">
-                  <a class="nav-link" href="/Profiles/profiles_index/">
+                  <a class="nav-link" href="/Profiles/">
                     Profiles</a></li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/Practice/practice_index/">
+                  <a class="nav-link" href="/Practice/">
                     Practice</a></li>                
                 <li class="nav-item">
-                  <a class="nav-link" href="/Approach/approach_index/">
+                  <a class="nav-link" href="/Approach/">
                     Approach</a></li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/Growth/growth_index/">
+                  <a class="nav-link" href="/Growth/">
                     Gowth</a></li>
             </ul><!-- End of links on left side of nvbar -->
             
@@ -66,18 +72,124 @@
 <main style="min-height:86vh;">
 
 
+<div class="cover-container bg-dark-blue d-flex mx-auto flex-column mb-2"
+    style="
+      background-position:center;
+      background-size:cover;
+      height:87vh;
+      min-height:400px;
+      z-index:10;
+      background-color:#003449;
+
+    "
+    id="headshot">
+  
+    <main class="px-3 ms-4 my-auto text-primary">
+      <h1 style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" id="landing-text">CreaTheory</h1>
+      <p class="lead">
+        <a href="/approach/creatherapy/creatherapy-intro/" class="btn btn-lg btn-secondary fw-bold border-primary bg-primary">Re-Imagine Psychotherapy</a>
+      </p>
+    </main>
+  
+    <footer class="mt-auto text-white-50">
+      <p>Check out <a href="https://crea-therapy.com/">CreaTherapy</a></p>
+    </footer>
+  </div>
 
     
     
-
-<h1 id="indexmd">index.md</h1>
-<p>A space to re-imagine psychotherapy</p>
-<p><a href="/Approach/approach_index/">Approach</a></p>
-<p><a href="/Growth/growth_index.md/">Growth</a></p>
-<p><a href="/Practice/practice_index/">Practice</a></p>
-<p><a href="/Profiles/profiles_index/">Profiles</a></p>
+    
 
 
+
+<div class="row row-cols-1 row-cols-md-2 g-2 m-1 shadow">
+  
+
+<div class="card-container col-lg-6 float-start  appear" id="Profiles">
+  <div class="text-bg-dark me-md-0 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden border-dark-blue">
+    <div class="my-3 py-3">
+      <h2 class="display-5"><a class="link-primary link-offset-2 link-underline link-underline-opacity-20 link-underline-opacity-75-hover" 
+        href="/Profiles/">Profiles</a></h2>
+      <p class="lead">Know yourself as a therapist</p>
+    </div>
+    <div id="picture-Profiles" class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+    <img 
+    class="card-image object-fit-cover rounded shadow" 
+    src="/static/images/cards.jpg"
+    style="max-width:100%;
+    display:center;
+    border-radius:5%;
+    "
+    >
+    </div>
+  </div>
+</div>
+
+
+<div class="card-container col-lg-6 float-start  appear" id="Growth">
+  <div class="text-bg-dark me-md-0 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden border-dark-blue">
+    <div class="my-3 py-3">
+      <h2 class="display-5"><a class="link-primary link-offset-2 link-underline link-underline-opacity-20 link-underline-opacity-75-hover" 
+        href="/Growth/">Growth</a></h2>
+      <p class="lead">a streamelined system of development</p>
+    </div>
+    <div id="picture-Growth" class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+    <img 
+    class="card-image object-fit-cover rounded shadow" 
+    src="/static/images/cards.jpg"
+    style="max-width:100%;
+    display:center;
+    border-radius:5%;
+    "
+    >
+    </div>
+  </div>
+</div>
+
+
+<div class="card-container col-lg-6 float-start  appear" id="Practice">
+  <div class="text-bg-dark me-md-0 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden border-dark-blue">
+    <div class="my-3 py-3">
+      <h2 class="display-5"><a class="link-primary link-offset-2 link-underline link-underline-opacity-20 link-underline-opacity-75-hover" 
+        href="/Practice/">Practice</a></h2>
+      <p class="lead">Learn how to help others</p>
+    </div>
+    <div id="picture-Practice" class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+    <img 
+    class="card-image object-fit-cover rounded shadow" 
+    src="/static/images/cards.jpg"
+    style="max-width:100%;
+    display:center;
+    border-radius:5%;
+    "
+    >
+    </div>
+  </div>
+</div>
+
+
+<div class="card-container col-lg-6 float-start  appear" id="Approach">
+  <div class="text-bg-dark me-md-0 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden border-dark-blue">
+    <div class="my-3 py-3">
+      <h2 class="display-5"><a class="link-primary link-offset-2 link-underline link-underline-opacity-20 link-underline-opacity-75-hover" 
+        href="/Approach/">Approach</a></h2>
+      <p class="lead">Understand CreaTherapy approach</p>
+    </div>
+    <div id="picture-Approach" class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+    <img 
+    class="card-image object-fit-cover rounded shadow" 
+    src="/static/images/cards.jpg"
+    style="max-width:100%;
+    display:center;
+    border-radius:5%;
+    "
+    >
+    </div>
+  </div>
+</div>
+
+
+</div>
 
 
 

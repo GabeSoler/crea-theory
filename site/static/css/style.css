@@ -15,3 +15,8 @@ blockquote {
     background-color:#003449;
 
 }
+.border-dark-blue {
+    border-color:#003449;
+    border:0.5rem;
+
+}

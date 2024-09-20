@@ -12,6 +12,8 @@ To do that, the model I have created separates the core components of psychother
 
 The fact that the model is compatible makes it move in a plane that is different to other approaches, and therefore, I call it a (non)approach. This means that CreaTherapy is not competing with other approaches, but it appears here and there to help you create connective tissue between models, therefore giving you freedom of movement. 
 
+![Overview]({% static "images/model/eagle_eye.png" %})
+
 CreaTherapy is composed of three main parts:
 
 -	Philosophy:  a description of notions about reality and knowledge creation

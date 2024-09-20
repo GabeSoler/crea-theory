@@ -1,15 +1,22 @@
-.img-formated {
-    width:90vw;
+image,img {
+    max-width:80%;
 }
+
 
 blockquote {
-    background-color: aquamarine;
+    background-color: rgb(233, 240, 241);
+    border-color: rgb(37, 44, 44);
+    border-left: 0.5rem;
+    padding:0.5rem;
+    margin-left: 2%;
 }
 
-p {
-    color: blue;
-}
+.bg-dark-blue {
+    background-color:#003449;
 
-body {
-    background-color: black;
+}
+.border-dark-blue {
+    border-color:#003449;
+    border:0.5rem;
+
 }
