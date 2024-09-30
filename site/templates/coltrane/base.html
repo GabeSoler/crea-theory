@@ -42,17 +42,21 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb2 mb-md-0"> <!-- "me" refers to left, and "ms" to right -->
                 <li class="nav-item">
-                  <a class="nav-link" href="/Profiles/">
+                  <a class="nav-link {% if slug|last_url:-2 == "Profiles" or slug|last_url:-3 == "Profiles"  %}active{% endif %}" 
+                        href="/Profiles/">
                     Profiles</a></li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/Practice/">
+                  <a class="nav-link {% if slug|last_url:-2 == "Practice" or slug|last_url:-3 == "Practice" %}active{% endif %}" 
+                      href="/Practice/">
                     Practice</a></li>                
                 <li class="nav-item">
-                  <a class="nav-link" href="/Approach/">
+                  <a class="nav-link {% if slug|last_url:-2 == "Approach" or slug|last_url:-3 == "Approach" %}active{% endif %}" 
+                      href="/Approach/">
                     Approach</a></li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/Growth/">
-                    Gowth</a></li>
+                  <a class="nav-link {% if slug|last_url:-2 == "Growth" or slug|last_url:-3 == "Growth" %}active{% endif %}" 
+                      href="/Growth/">
+                    Growth</a></li>
             </ul><!-- End of links on left side of nvbar -->
             
             <!-- Account related links-->
@@ -98,14 +102,12 @@
               <div class="collapse navbar-collapse" id="navbarCollapseBottom">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" id="scrol-to-view" aria-current="page" href="/about/contact/">Contact</a>
+                    <a class="nav-link" id="scrol-to-view" aria-current="page" href="/www.gabrielsoler.co.uk/contact/">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/about/site/">Site</a>
+                    <a class="nav-link" href="www.crea-therapy.com">WebApp</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="scroll-to-view" href="/about/pricing/">Pricing</a>
-                  </li>
+
                 </ul>
                 <span class="navbar-text">
                   By Gabriel Soler

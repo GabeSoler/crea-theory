@@ -10,23 +10,7 @@ publish_date: 2024-09-17 20:20:01
     
     Score each to see the presence of them. People opening the higher ones may feel represented by many of the previous ones. People in the first ones will not feel represented by the higher ones.
     
-    [Dependant ](https://www.notion.so/Dependant-abc0d1f5ef38471f886f13d2d07667b1?pvs=21)
     
-    [Self centred](https://www.notion.so/Self-centred-d0cd0a573fdc4f44856a311184590369?pvs=21)
-    
-    [Traditional](https://www.notion.so/Traditional-269029d6be1842ee91e0294c83a431c3?pvs=21)
-    
-    [Modern](https://www.notion.so/Modern-12b253f02dc94341bbffaad97302abd9?pvs=21)
-    
-    [Anti-modern](https://www.notion.so/Anti-modern-87d5953ae129431fbe9c6e5a21be3825?pvs=21)
-    
-    [Integrative](https://www.notion.so/Integrative-4f86a700fad444bd8bc482820570face?pvs=21)
-    
-    [Post Modern/compost](https://www.notion.so/Post-Modern-compost-a746596daa71411e8e43bedab25a1d2d?pvs=21)
-    
-    [Interindividual](https://www.notion.so/Interindividual-7bf19bc494ac4d2ab068f2bcd713e29e?pvs=21)
-    
-    [Intra-grative](https://www.notion.so/Intra-grative-2d43d61ab0ec46e1a3108fd12d3bed2e?pvs=21)
     
     - Tiers
         

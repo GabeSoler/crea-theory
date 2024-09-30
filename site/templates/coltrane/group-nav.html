@@ -16,15 +16,13 @@
         </div>
         <div class="offcanvas-body">
           {% breadcrumb slug %}
-            <ul class="nav flex-column">
+            <ul class="nav nav-pills nav-fill flex-column">
                 {% for link in links %}
-                    <li class="nav-item">
+                    <li class="nav-item ">
                       <a class="nav-link
-                      {% if request.url_info|last_url == link.slug|last_url %}
-                        active
-                      "
-                      {% endif %}
-                      aria-current="page"
+                      {% if slug == link.slug %}
+                      active
+                      {% endif %}"
                       href="/{{link.slug}}/">{{link.title|title}}</a>
                     </li>
                       {% endfor %}
@@ -50,7 +48,6 @@
     alt="{title}"
     /> </div>
     {% endif%}
-    <div class="card-body col-10 mx-auto">
 {% block content%}
 <div class="container ">
 {{content}}    
