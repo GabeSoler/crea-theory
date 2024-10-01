@@ -9,13 +9,17 @@ def path_list(url:str)->list:
     broken_url = broken_url.split("/")
     return broken_url
 
-@register.filter
-@stringfilter
-def last_url(value:str,place=-1):
+def clean_slashes(value:str)->str:
     if value.endswith("/"):
         value = value[:-1]
     if value.startswith("/"):
         value = value[1:]
+    return value
+
+@register.filter
+@stringfilter
+def last_url(value:str,place=-1):
+    value = clean_slashes(value)
     value = path_list(value)
     value = value[place]
     return value
@@ -23,6 +27,7 @@ def last_url(value:str,place=-1):
 @register.filter
 @stringfilter
 def url_section(value:str,until=1)->str:
+    value = clean_slashes(value)
     url_parts = path_list(value)
     url_selected = url_parts[:until]
     url_section = "/"
