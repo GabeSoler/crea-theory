@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="/static/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="/static/css/style.css"> 
 
+    <!--font icons bootstrap css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,17 +46,53 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb2 mb-md-0"> <!-- "me" refers to left, and "ms" to right -->
                 <li class="nav-item">
-                  <a class="nav-link" href="/Profiles/">
-                    Profiles</a></li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Practice/">
-                    Practice</a></li>                
-                <li class="nav-item">
-                  <a class="nav-link" href="/Approach/">
-                    Approach</a></li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Growth/">
-                    Gowth</a></li>
+
+                  
+                  
+                  <a class="nav-link 
+                  
+                  
+                      
+                  " 
+                        href="/Approach/">
+                    Approach
+                    
+                  </a></li>
+                    
+                  <a class="nav-link 
+                  active
+                  
+                      
+                  " 
+                        href="/Profiles/">
+                    Profiles
+                    
+                  </a></li>
+                    
+                  <a class="nav-link 
+                  
+                  disabled
+                      
+                  " 
+                        href="/Practice/">
+                    Practice
+                    
+                    <i class="bi bi-tools"></i>
+                    
+                  </a></li>
+                    
+                  <a class="nav-link 
+                  
+                  disabled
+                      
+                  " 
+                        href="/Growth/">
+                    Growth
+                    
+                    <i class="bi bi-tools"></i>
+                    
+                  </a></li>
+                    
             </ul><!-- End of links on left side of nvbar -->
             
             <!-- Account related links-->
@@ -79,67 +119,102 @@
  
       <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title text-primary" id="offcanvasScrollingLabel">/Profiles/Components</h5>
+          <h5 class="offcanvas-title text-primary" id="offcanvasScrollingLabel">Extended Awareness</h5>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
           <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
       
-      <li class="breadcrumb-item"><a href="/"></a></li>
-        
+      
       <li class="breadcrumb-item"><a href="/Profiles/">Profiles</a></li>
         
+      
+      
       <li class="breadcrumb-item"><a href="/Profiles/components/">components</a></li>
         
-      <li class="breadcrumb-item"><a href="/Profiles/components/extended/">extended</a></li>
+      
+      
+      <li class="breadcrumb-item text-primary">extended</li>
         
+      
     </ol>
   </nav>
-
-          <a href="/Profiles/">Back to Profiles</a>
-            <ul class="nav flex-column">
+            <ul class="nav nav-pills nav-fill flex-column">
                 
-                    <li class="nav-item">
+                    <li class="nav-item ">
                       <a class="nav-link
                       
-                      aria-current="page"
-                      href="/Profiles/components/components_intro/">Component&#x27;s Intro</a>
+                      
+                      "
+                      href="/Profiles/components/components_intro/"
+                      >
+                      Component&#x27;s Intro
+                      
+                    </a>
                     </li>
                       
-                    <li class="nav-item">
+                    <li class="nav-item ">
                       <a class="nav-link
                       
-                      aria-current="page"
-                      href="/Profiles/components/subjective/">Subjective</a>
+                      
+                      "
+                      href="/Profiles/components/subjective/"
+                      >
+                      Subjective
+                      
+                    </a>
                     </li>
                       
-                    <li class="nav-item">
+                    <li class="nav-item ">
                       <a class="nav-link
                       
-                      aria-current="page"
-                      href="/Profiles/components/extended/">Extended Awareness</a>
+                      active
+                      
+                      
+                      "
+                      href="/Profiles/components/extended/"
+                      >
+                      Extended Awareness
+                      
+                    </a>
                     </li>
                       
-                    <li class="nav-item">
+                    <li class="nav-item ">
                       <a class="nav-link
                       
-                      aria-current="page"
-                      href="/Profiles/components/contextual/">Contextual</a>
+                      
+                      "
+                      href="/Profiles/components/contextual/"
+                      >
+                      Contextual
+                      
+                    </a>
                     </li>
                       
-                    <li class="nav-item">
+                    <li class="nav-item ">
                       <a class="nav-link
                       
-                      aria-current="page"
-                      href="/Profiles/components/culture/">Culture</a>
+                      
+                      "
+                      href="/Profiles/components/culture/"
+                      >
+                      Culture
+                      
+                    </a>
                     </li>
                       
-                    <li class="nav-item">
+                    <li class="nav-item ">
                       <a class="nav-link
                       
-                      aria-current="page"
-                      href="/Profiles/components/identity/">Identity</a>
+                      
+                      "
+                      href="/Profiles/components/identity/"
+                      >
+                      Identity
+                      
+                    </a>
                     </li>
                       
                       </ul>        
@@ -158,10 +233,9 @@
 <h4 class="card-header display-3 bg-gray-green text-dark">Extended Awareness</h4>
 
     
-    <div class="card-body col-10 mx-auto">
 
-<div class="container ">
-<h1 id="extended-awareness">Extended Awareness:</h1>
+<div class="card bg-white-green col-12 col-md-10 mx-auto mb-2 border-0 p-3">
+  <h1 id="extended-awareness">Extended Awareness:</h1>
 <p>This area is about what lays beyond the subjective. This are common spaces for many approaches, but they are not so easily grasped by a client or a therapist in training. They usually need many experiences and theoretical knowledge to use and understand.</p>
 <p><img src="/static/images/components/extended.png" alt="Extended"/></p>
 <h2 id="dreaming">Dreaming:</h2>
@@ -203,7 +277,7 @@ These types of approaches I call &lsquo;re-programming&rsquo; because they direc
             <div class="container-fluid">
               <a class="navbar-brand pb-2" href="/">Home</a>
 
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarCollapseBottom" aria-controls="navbarCollapseBottom"
               aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon">
@@ -213,15 +287,13 @@ These types of approaches I call &lsquo;re-programming&rsquo; because they direc
               <div class="collapse navbar-collapse" id="navbarCollapseBottom">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" id="scrol-to-view" aria-current="page" href="/about/contact/">Contact</a>
+                    <a class="nav-link" id="scrol-to-view" aria-current="page" href="/www.gabrielsoler.co.uk/contact/">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/about/site/">Site</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="scroll-to-view" href="/about/pricing/">Pricing</a>
+                    <a class="nav-link" href="www.crea-therapy.com">WebApp</a>
                   </li>
                 </ul>
+
                 <span class="navbar-text">
                   By Gabriel Soler
                 </span>

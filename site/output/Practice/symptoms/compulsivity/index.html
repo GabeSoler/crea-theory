@@ -9,13 +9,23 @@
     <link rel="stylesheet" href="/static/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="/static/css/style.css"> 
 
+    <!--font icons bootstrap css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap&text=CreaTherapy" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap&text=CreaTheory" rel="stylesheet"> 
 
     
-    
+     <!--favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/static/favicon/site.webmanifest"> 
+ 
+
 
 </head> <!-- end of head-->
 
@@ -24,7 +34,7 @@
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary boder position-sticky" data-bs-theme="dark" id="navbar">
     <div class="container-fluid">
         <a class="navbar-brand text-light" style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="/" id="nav-title">
-            CreaTheory<span class="text-light" style="font-family:verdana,san-serif;">-Transitional Space</span> </a>
+            CreaTheory<span class="text-light" style="font-family:verdana,san-serif;"></span> </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
@@ -36,17 +46,53 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb2 mb-md-0"> <!-- "me" refers to left, and "ms" to right -->
                 <li class="nav-item">
-                  <a class="nav-link" href="/Profiles/profiles_index/">
-                    Profiles</a></li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Practice/practice_index/">
-                    Practice</a></li>                
-                <li class="nav-item">
-                  <a class="nav-link" href="/Approach/approach_index/">
-                    Approach</a></li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Growth/growth_index/">
-                    Gowth</a></li>
+
+                  
+                  
+                  <a class="nav-link 
+                  
+                  
+                      
+                  " 
+                        href="/Approach/">
+                    Approach
+                    
+                  </a></li>
+                    
+                  <a class="nav-link 
+                  
+                  
+                      
+                  " 
+                        href="/Profiles/">
+                    Profiles
+                    
+                  </a></li>
+                    
+                  <a class="nav-link 
+                  active
+                  disabled
+                      
+                  " 
+                        href="/Practice/">
+                    Practice
+                    
+                    <i class="bi bi-tools"></i>
+                    
+                  </a></li>
+                    
+                  <a class="nav-link 
+                  
+                  disabled
+                      
+                  " 
+                        href="/Growth/">
+                    Growth
+                    
+                    <i class="bi bi-tools"></i>
+                    
+                  </a></li>
+                    
             </ul><!-- End of links on left side of nvbar -->
             
             <!-- Account related links-->
@@ -66,10 +112,25 @@
 <main style="min-height:86vh;">
 
 
+<!-- alert to alert users who go into areas not still ready -->
+
+<div
+  class="alert alert-warning alert-dismissible"
+  role="alert"
+>
+  <button
+    type="button"
+    class="btn-close"
+    data-bs-dismiss="alert"
+    aria-label="Close"
+  ></button>
+  <strong>Work in Progress</strong> Please keep cheking for updates
+</div>
+
 
     
 
-<div class="card bg-white-green col-12 col-md-10 mx-auto">
+<div class="card bg-white-green col-12 col-md-10 mx-auto p-3">
 
 <h4 class="card-header display-3 bg-gray-green text-dark">Fifth Gent</h4>
 
@@ -77,6 +138,24 @@
     <div class="card-body col-10 mx-auto">
 
 <div class="container ">
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      
+      
+      <li class="breadcrumb-item"><a href="/Practice/">Practice</a></li>
+        
+      
+      
+      <li class="breadcrumb-item"><a href="/Practice/symptoms/">symptoms</a></li>
+        
+      
+      
+      <li class="breadcrumb-item text-primary">compulsivity</li>
+        
+      
+    </ol>
+  </nav>
 <p>Rituals, excessive checks, purges, we do things we know are wrong. They don't come from an impulse but from a doubt.</p>
     
 </div>
@@ -96,7 +175,7 @@
             <div class="container-fluid">
               <a class="navbar-brand pb-2" href="/">Home</a>
 
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarCollapseBottom" aria-controls="navbarCollapseBottom"
               aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon">
@@ -106,15 +185,13 @@
               <div class="collapse navbar-collapse" id="navbarCollapseBottom">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" id="scrol-to-view" aria-current="page" href="/about/contact/">Contact</a>
+                    <a class="nav-link" id="scrol-to-view" aria-current="page" href="/www.gabrielsoler.co.uk/contact/">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/about/site/">Site</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="scroll-to-view" href="/about/pricing/">Pricing</a>
+                    <a class="nav-link" href="www.crea-therapy.com">WebApp</a>
                   </li>
                 </ul>
+
                 <span class="navbar-text">
                   By Gabriel Soler
                 </span>

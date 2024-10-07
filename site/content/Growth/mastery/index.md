@@ -2,7 +2,7 @@
 title: 'Mastery Index'
 order: 1
 template: coltrane/content.html
-active: false
+active: disabled
 publish_date: 2024-07-30 20:20:01
 ---
 # Mastery System

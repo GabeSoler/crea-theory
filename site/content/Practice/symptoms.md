@@ -1,6 +1,7 @@
 ---
 title: 'Symptoms index'
 template: coltrane/content.html
+active: disabled
 publish_date: 2024-09-17 20:20:01
 ---
 

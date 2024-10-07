@@ -1,7 +1,7 @@
 ---
 title: Profiles
 description: Know yourself as a therapist
-order: 1
+order: 2
 template: coltrane/content.html
 active: ok
 link: /Profiles/

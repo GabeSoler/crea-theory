@@ -5,6 +5,7 @@ image,img {
 
 blockquote {
     background-color: rgb(233, 240, 241);
+    border:0.2em;
     border-color: rgb(37, 44, 44);
     border-left: 0.5rem;
     padding:0.5rem;

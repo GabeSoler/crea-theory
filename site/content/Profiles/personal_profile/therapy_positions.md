@@ -8,6 +8,43 @@ publish_date: 2024-07-30 20:20:01
 
 # Therapeutic Positions
 
+<h3><a href="Profiles/personal_profile/positions/">Positions</a></h3>
+{% directory_contents 'Profiles/personal_profile/positions/' order_by='order' as directory_contents %}
+<ul>
+{% for content in  directory_contents %}
+    {% if content.active != 'disabled' %}
+    <li><a href="/{{content.slug}}/"
+    >{{content.title}}
+    </a></li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+<h3><a href="Profiles/personal_profile/path/">Path</a></h3>
+{% directory_contents 'Profiles/personal_profile/positions/' order_by='order' as directory_contents %}
+<ul>
+{% for content in  directory_contents %}
+    {% if content.active != 'disabled' %}
+    <li><a href="/{{content.slug}}/"
+    >{{content.title}}
+    </a></li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+<h3><a href="Profiles/personal_profile/ind_trad/">Individuation/tradition</a></h3>
+{% directory_contents 'Profiles/personal_profile/positions/' order_by='order' as directory_contents %}
+<ul>
+{% for content in  directory_contents %}
+    {% if content.active != 'disabled' %}
+    <li><a href="/{{content.slug}}/"
+    >{{content.title}}
+    </a></li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+
 Caring or therapeutic positions aim to show the complexities of our caring and how we can move and be more open to different ways of work. It also help us to see our prefered positions and therefore style.
 
 This model unpacks some of the most important elements of our psychotherapy landscape. Yes, even more than the components and philosophy.

@@ -12,7 +12,11 @@
   <div class="me-md-0 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden bg-dark-blue border border-primary border-5 shadow">
     <div class="my-3 py-3">
       <h2 class="display-5"><a class="link-primary link-offset-2 link-underline link-underline-opacity-20 link-underline-opacity-75-hover" 
-        href="{{area.link}}">{{area.title|title}}</a></h2>
+        href="{{area.link}}">{{area.title|title}}
+        {% if area.active == 'disabled' %}
+        <i class="bi bi-tools"></i>
+        {% endif %}</a>
+</h2>
       <p class="lead text-light">{{area.description}}</p>
     </div>
     <div id="picture-{{area.title}}" class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">

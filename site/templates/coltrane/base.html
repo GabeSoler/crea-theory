@@ -46,21 +46,23 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb2 mb-md-0"> <!-- "me" refers to left, and "ms" to right -->
                 <li class="nav-item">
-                  <a class="nav-link {% if slug|url_section:1 == "/Profiles/" %}active{% endif %}" 
-                        href="/Profiles/">
-                    Profiles</a></li>
-                <li class="nav-item">
-                  <a class="nav-link {% if slug|url_section:1 == "/Practice/" %}active{% endif %}" 
-                      href="/Practice/">
-                    Practice</a></li>                
-                <li class="nav-item">
-                  <a class="nav-link {% if slug|url_section:1 == "/Approach/" %}active{% endif %}" 
-                      href="/Approach/">
-                    Approach</a></li>
-                <li class="nav-item">
-                  <a class="nav-link {% if slug|url_section:1 == "/Growth/" %}active{% endif %}" 
-                      href="/Growth/">
-                    Growth</a></li>
+
+                  {% directory_contents  "areas" order_by="order" as areas %}
+                  {% for area in areas %}
+                  <a class="nav-link 
+                  {% if slug|url_section:1 == area.link %}active{% endif %}
+                  {% if area.active == 'disabled' %}disabled{% endif %}
+                      {% if link.active == 'disabled' %}
+                      <i class="bi bi-tools"></i>
+                      {% endif %}
+                  " 
+                        href="{{area.link}}">
+                    {{area.title}}
+                    {% if area.active == 'disabled' %}
+                    <i class="bi bi-tools"></i>
+                    {% endif %}
+                  </a></li>
+                    {% endfor %}
             </ul><!-- End of links on left side of nvbar -->
             
             <!-- Account related links-->
@@ -96,7 +98,7 @@
             <div class="container-fluid">
               <a class="navbar-brand pb-2" href="/">Home</a>
 
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarCollapseBottom" aria-controls="navbarCollapseBottom"
               aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon">
@@ -111,8 +113,8 @@
                   <li class="nav-item">
                     <a class="nav-link" href="www.crea-therapy.com">WebApp</a>
                   </li>
-
                 </ul>
+
                 <span class="navbar-text">
                   By Gabriel Soler
                 </span>

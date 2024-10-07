@@ -1,7 +1,7 @@
 ---
 title: 'Personal Profile Index'
 order: 1
-template: coltrane/group-nav.html
+template: coltrane/content.html
 active: ok
 publish_date: 2024-07-30 20:20:01
 ---
@@ -11,6 +11,7 @@ This section is to help you understand CreaTherapy Personal Profile system in it
 
 # care profile
 First, we need to explore your style of care, and for that, I have four areas you may want to think about:
+[Therapist/care positions](Profiles/personal_profile/therapy_positions.md)
 
 - Acceptance: do you feel that acceptance is predominant?
 - Challenge: do you feel challenging others helps them more?
@@ -31,6 +32,7 @@ This allows us to pinpoint your direction as a therapist while giving you plenty
 The other two parts of the test also give us some clues about where you are in your process.
 
 ## growth path
+[Growth Path](Profiles/personal_profile/deepth_path.md)
 
 These four positions come from a more ontological question, asking where parts of reality are more attractive and how you approach reality. 
 
@@ -47,6 +49,8 @@ Dreamer: Extensive, container, feels, mixes, and follows metaphors, living betwe
 - Explorer: Extensive and divider in the world, tries to understand in action, and learns techniques to operate on things. CBT and evidence-based. 
 
 # Tradition/individuation
+
+[Tradition/individuation](Profiles/personal_profile/individuation_tradition.md)
 
 This group of questions aim to help you see how you feel about a therapy tradition. Here again, I made four questions for you:
 
