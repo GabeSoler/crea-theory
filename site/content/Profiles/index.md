@@ -1,7 +1,8 @@
 ---
 title: 'profiles index'
 template: coltrane/content.html
-publish_date: 2024-07-30 20:20:01
+active: ok
+publish_date: 2024-10-07 20:20:01
 --- 
 
 <h3><a href="/Profiles/components/">Components</a></h3>
