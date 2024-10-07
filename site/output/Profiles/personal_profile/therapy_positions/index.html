@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="/static/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="/static/css/style.css"> 
 
+    <!--font icons bootstrap css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,17 +46,53 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb2 mb-md-0"> <!-- "me" refers to left, and "ms" to right -->
                 <li class="nav-item">
-                  <a class="nav-link" href="/Profiles/">
-                    Profiles</a></li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Practice/">
-                    Practice</a></li>                
-                <li class="nav-item">
-                  <a class="nav-link" href="/Approach/">
-                    Approach</a></li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Growth/">
-                    Gowth</a></li>
+
+                  
+                  
+                  <a class="nav-link 
+                  
+                  
+                      
+                  " 
+                        href="/Approach/">
+                    Approach
+                    
+                  </a></li>
+                    
+                  <a class="nav-link 
+                  active
+                  
+                      
+                  " 
+                        href="/Profiles/">
+                    Profiles
+                    
+                  </a></li>
+                    
+                  <a class="nav-link 
+                  
+                  disabled
+                      
+                  " 
+                        href="/Practice/">
+                    Practice
+                    
+                    <i class="bi bi-tools"></i>
+                    
+                  </a></li>
+                    
+                  <a class="nav-link 
+                  
+                  disabled
+                      
+                  " 
+                        href="/Growth/">
+                    Growth
+                    
+                    <i class="bi bi-tools"></i>
+                    
+                  </a></li>
+                    
             </ul><!-- End of links on left side of nvbar -->
             
             <!-- Account related links-->
@@ -79,46 +119,66 @@
  
       <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title text-primary" id="offcanvasScrollingLabel">/Profiles/Personal_Profile</h5>
+          <h5 class="offcanvas-title text-primary" id="offcanvasScrollingLabel">Theapeutic Positions</h5>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
           <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
       
-      <li class="breadcrumb-item"><a href="/"></a></li>
-        
+      
       <li class="breadcrumb-item"><a href="/Profiles/">Profiles</a></li>
         
+      
+      
       <li class="breadcrumb-item"><a href="/Profiles/personal_profile/">personal_profile</a></li>
         
-      <li class="breadcrumb-item"><a href="/Profiles/personal_profile/therapy_positions/">therapy_positions</a></li>
+      
+      
+      <li class="breadcrumb-item text-primary">therapy_positions</li>
         
+      
     </ol>
   </nav>
-
-          <a href="/Profiles/">Back to Profiles</a>
-            <ul class="nav flex-column">
+            <ul class="nav nav-pills nav-fill flex-column">
                 
-                    <li class="nav-item">
+                    <li class="nav-item ">
                       <a class="nav-link
                       
-                      aria-current="page"
-                      href="/Profiles/personal_profile/therapy_positions/">Theapeutic Positions</a>
+                      active
+                      
+                      
+                      "
+                      href="/Profiles/personal_profile/therapy_positions/"
+                      >
+                      Theapeutic Positions
+                      
+                    </a>
                     </li>
                       
-                    <li class="nav-item">
+                    <li class="nav-item ">
                       <a class="nav-link
                       
-                      aria-current="page"
-                      href="/Profiles/personal_profile/deepth_path/">Path Of Growth</a>
+                      
+                      "
+                      href="/Profiles/personal_profile/deepth_path/"
+                      >
+                      Path Of Growth
+                      
+                    </a>
                     </li>
                       
-                    <li class="nav-item">
+                    <li class="nav-item ">
                       <a class="nav-link
                       
-                      aria-current="page"
-                      href="/Profiles/personal_profile/individuation_tradition/">Traditions And Individuation</a>
+                      
+                      "
+                      href="/Profiles/personal_profile/individuation_tradition/"
+                      >
+                      Traditions And Individuation
+                      
+                    </a>
                     </li>
                       
                       </ul>        
@@ -137,33 +197,61 @@
 <h4 class="card-header display-3 bg-gray-green text-dark">Theapeutic Positions</h4>
 
     
-    <div class="card-body col-10 mx-auto">
 
-<div class="container ">
-<h1 id="therapeutic-positions">Therapeutic Positions</h1>
+<div class="card bg-white-green col-12 col-md-10 mx-auto mb-2 border-0 p-3">
+  <h1 id="therapeutic-positions">Therapeutic Positions</h1>
 <p>Caring or therapeutic positions aim to show the complexities of our caring and how we can move and be more open to different ways of work. It also help us to see our prefered positions and therefore style.</p>
 <p>This model unpacks some of the most important elements of our psychotherapy landscape. Yes, even more than the components and philosophy.</p>
 <p><img src="/static/images/profiles/positions-circle.png" alt="positions"/></p>
-<p>When I talk with therapists, I feel is this model what comes first to my mind. Most of us identify with one of the main groups of therapy:</p>
-<ul>
-<li>Psychodynamic: group that analyses and makes interpretations. It defines a broader spectrum than psychoanalysis. The focus is on hermeneutic interpretation of the relationship and unconscious.</li>
-<li>Person centred: group that focusses in listening attentively and giving unconditional positive regard (plus other elements). The focus is on phenomenological experience.</li>
-<li>CBT: group that follows the scientific tradition, aiming for effectiveness of change through evidence-based interventions. Focus on electiveness of change through exercises and homework.</li>
-<li>Humanistic: group that trust human experience and experimentation. A known example is Gestalt, but there are many other approaches here. Focus on experimentation in somewhat challenging but playful experiences.
-Even though these four groups are not descriptive of the whole variety of approaches, it is common colleagues use one of these to describe their work, because they are a short hand, and a broad categorisation.
-What I came to wonder is if there was something behind these groups. And after trying many ideas I came out with some polarities of our work:</li>
-<li>We are or more receptive and following or more propositive (we propose things)</li>
-<li>We are more acceptant of our clients or more challenging
-These create four groups of positions:</li>
-<li>Compassionate: we are receptive of our clients and we follow what they say to promote a space of acceptance of all they are</li>
-<li>Inquisitive: we wonder and inquire, we think what may be happening behind, and try to find a pattern that makes sense</li>
-<li>Playful: we propose something to do, an activity that may help the client to see themselves from a different angle, helping them see and accept themselves better</li>
-<li>Changer: we push for a change, we are committed to take our clients out of where they are and we guide them into a better place.
-These four marks for me positions, I personally move between them, depending on my clients and how I am feeling, but I also have some sort of preferred positions, some way of working that feel more coherent to me.
-These positions mirror the main four groups of psychotherapy, but in a way that does not keep them as rigid groups, but as flexible elements we can deep in and out. They also mark a flavour of who we are as people, and what we feel is more coherent at the moment of helping someone else.
-The outer circle is what I propose happens when we get polarised into one of these positions. We risk losing our boundaries when we are too compassionate, or we get too controlling when we are too much into changing our clients. We may get into enactments if we are too playful, or we may be overthinking what we are doing if we are to inquisitive.
-I hope you can see that they work as opposites, and therefore they can help us to balance out, the shortcomings of each other.</li>
-</ul>
+<p>Each of the positions can be balanced, or polarised. When it gets polarised we can see ourseves in a shadow side of our care, represented in the circle.</p>
+<p></p>
+<p><ul>
+
+    <div class="card">
+<div class="card-header display-5">Compassionate</div>
+<div class="card-body p-4 m-2">
+<div class="card-image"><img class="img-thumbnail col-3 rounded" src="/static/images/profiles/compassionate.jpg"/></div>
+<div class="card-text m-2"><b>Description: </b>Follows and accepts. Type of therapist that welcomes and holds anything that the client brings. Its words and interventions are soft and give a feeling of wholesomness. They never make you feel uncomfortable, nor challenge any of your comments. They are patient and no mater what you do, always see it in a good light. The Compassionate position make us feel close to other&#x27;s feelings and suffering, giving lots of space to express other people&#x27;s experience. In this position we follow the rhytm of the other person avoiging interruptions</div>
+<div class="card-text m-2"><b>Shadow: </b>When we polarise into it we may have difficulties with setting boundaries, which means that we tend to put others before ourselves. Lack of boundaries, clients abusing the ‘good’ therapist.</div>
+<div class="card-text m-2"><b>Traditions: </b>Person Centred, Focusing, Relational Psychoanalisis.</div>
+<div class="card-text m-2"><b>Authors: </b>Rogers, Jung, Stolorow, Orange</div>
+</div>
+</div>
+    
+    <div class="card">
+<div class="card-header display-5">Inquisitive</div>
+<div class="card-body p-4 m-2">
+<div class="card-image"><img class="img-thumbnail col-3 rounded" src="/static/images/profiles/inquisitive.jpg"/></div>
+<div class="card-text m-2"><b>Description: </b>Follows and challenges.This type of therapist follows the client&#x27;s process silently and awaits the right moment to comment or say a few words. They work by finding details in what the client brings that may trigger internal processes. They are subtle and make you feel they know something you have yet to figure out. The Inquisitive position invite us to analyse and collect information to find clues of deeper conflicts and underlying dynamics.</div>
+<div class="card-text m-2"><b>Shadow: </b>When we polarise into it we may find ourselves over-thinking and detached from the present emotional dynamic.</div>
+<div class="card-text m-2"><b>Traditions: </b>Traditional Psychoanalysis, Lacanian psychoanalysis, Jungian analysis.</div>
+<div class="card-text m-2"><b>Authors: </b>Freud, Klein, Bion, Kernberg</div>
+</div>
+</div>
+    
+    <div class="card">
+<div class="card-header display-5">Playful</div>
+<div class="card-body p-4 m-2">
+<div class="card-image"><img class="img-thumbnail col-3 rounded" src="/static/images/profiles/playful.jpg"/></div>
+<div class="card-text m-2"><b>Description: </b>Proposes and accepts. A type of therapist who tries to bring new things to the session to help the client process and move forward. They see many opportunities to help through little exercises like art-making, meditation, and role-playing. The goal is to activate the client&#x27;s own processes by creating spaces of insight. The Playful position invite us to create activities that can mobilise emotions, so we can process them.</div>
+<div class="card-text m-2"><b>Shadow: </b>When we polarise into it we may have problems with enactments, risking our unconcious to engangle and bring forth primitive dynamics. These being concious can be therapeutic, but a shadow enactment usually comes in the wrong timing.</div>
+<div class="card-text m-2"><b>Traditions: </b>Gestalt, Psychodrama, Play Therapy, Art therapies.</div>
+<div class="card-text m-2"><b>Authors: </b>Perls, Moreno, Winnicott</div>
+</div>
+</div>
+    
+    <div class="card">
+<div class="card-header display-5">Changer</div>
+<div class="card-body p-4 m-2">
+<div class="card-image"><img class="img-thumbnail col-3 rounded" src="/static/images/profiles/changer.jpg"/></div>
+<div class="card-text m-2"><b>Description: </b>Proposes and challenges. The type of therapist who wants to promote change in the client by bringing exercises, homework, and a battery of solutions. They have an answer for everything and a tool for every problem. They are on top of what is happening and will try to help you feel better soon. They tend to be pragmatic, enthusiastic, and encouraging. The Changer position invite us to encurage change in our clients by directly finding solutions, new behaviours, or exercises.</div>
+<div class="card-text m-2"><b>Shadow: </b>When we polarise into it we may become controlling, not giving enough space for the other to express their deeper feelings. Controlling the situation and not giving space for the client to express all their angles.</div>
+<div class="card-text m-2"><b>Traditions: </b>Cognitive Behavioural, Integrative approaches</div>
+<div class="card-text m-2"><b>Authors: </b>Beck, Elis</div>
+</div>
+</div>
+    
+</ul></p>
     
 </div>
 
@@ -184,7 +272,7 @@ I hope you can see that they work as opposites, and therefore they can help us t
             <div class="container-fluid">
               <a class="navbar-brand pb-2" href="/">Home</a>
 
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarCollapseBottom" aria-controls="navbarCollapseBottom"
               aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon">
@@ -194,15 +282,13 @@ I hope you can see that they work as opposites, and therefore they can help us t
               <div class="collapse navbar-collapse" id="navbarCollapseBottom">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" id="scrol-to-view" aria-current="page" href="/about/contact/">Contact</a>
+                    <a class="nav-link" id="scrol-to-view" aria-current="page" href="/www.gabrielsoler.co.uk/contact/">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/about/site/">Site</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="scroll-to-view" href="/about/pricing/">Pricing</a>
+                    <a class="nav-link" href="www.crea-therapy.com">WebApp</a>
                   </li>
                 </ul>
+
                 <span class="navbar-text">
                   By Gabriel Soler
                 </span>
