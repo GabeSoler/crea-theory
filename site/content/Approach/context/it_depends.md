@@ -1,7 +1,8 @@
 ---
 title: 'it depends'
 order: 8
-template: coltrane/content.html
+template: coltrane/group-nav.html
+active: disabled
 publish_date: 2024-07-30 20:20:01
 ---
 

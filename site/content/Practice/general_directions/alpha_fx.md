@@ -2,6 +2,7 @@
 title: 'Alpha Function'
 order: 1
 template: coltrane/group-nav.html
+active: disabled
 publish_date: 2024-07-30 20:20:01
 ---
 Concept proposed by Bion, that helps to have a broad view of psychotherapy. 

@@ -1,7 +1,7 @@
 ---
 title: 'Model Index'
 order: 1
-template: coltrane/content.html
+template: coltrane/group-nav.html
 publish_date: 2024-07-30 20:20:01
 ---
 # CreaTherapy Model Description

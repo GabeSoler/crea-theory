@@ -22,8 +22,18 @@
                       <a class="nav-link
                       {% if slug == link.slug %}
                       active
-                      {% endif %}"
-                      href="/{{link.slug}}/">{{link.title|title}}</a>
+                      {% endif %}
+                      {% if link.active == 'disabled' %}
+                      disabled
+                      {% endif %}
+                      "
+                      href="/{{link.slug}}/"
+                      >
+                      {{link.title|title}}
+                      {% if link.active == 'disabled' %}
+                      <i class="bi bi-tools"></i>
+                      {% endif %}
+                    </a>
                     </li>
                       {% endfor %}
                       </ul>        
