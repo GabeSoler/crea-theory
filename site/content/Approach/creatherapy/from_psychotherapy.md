@@ -1,5 +1,5 @@
 ---
-title: 'From psychotherapy'
+title: 'From Psychotherapy'
 order: 2
 template: coltrane/group-nav.html
 active: ok

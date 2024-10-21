@@ -1,5 +1,5 @@
 ---
-title: 'Assemble a model'
+title: 'Assemble a Model'
 order: 5
 template: coltrane/group-nav.html
 active: ok

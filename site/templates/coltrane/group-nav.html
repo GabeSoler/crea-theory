@@ -4,19 +4,38 @@
 
 {% block intro %}
 
+{% if active == 'disabled'%}
+<div
+class="alert alert-warning alert-dismissible"
+role="alert"
+>
+<button
+type="button"
+class="btn-close"
+data-bs-dismiss="alert"
+aria-label="Close"
+></button>
+<strong>Work in Progress</strong> Please keep cheking for updates
+</div>
+{% endif %}
+
+{% endblock intro %}
+
+{% block wrapper%}
+
 {% directory_contents  request|parent order_by='order' as links %}
+<button class="btn btn-info position-fixed" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">>></button>
 
-
-      <button class="btn btn-info position-fixed" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">>></button>
- 
-      <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title text-primary" id="offcanvasScrollingLabel">{{title|title}}</h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          {% breadcrumb slug %}
-            <ul class="nav nav-pills nav-fill flex-column">
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title text-primary" id="offcanvasScrollingLabel">{{title|title}}</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    
+          <div class="card">
+          <ul class="nav nav-pills nav-fill flex-column">
+              {% breadcrumb slug %}
                 {% for link in links %}
                     <li class="nav-item ">
                       <a class="nav-link
@@ -39,30 +58,11 @@
                       </ul>        
                     
                     </div>
-      </div>
-
- 
+                  </div></div>
 
 
-{% endblock intro %}
-
-{% block wrapper%}
-{% if active == 'disabled'%}
-<div
-  class="alert alert-warning alert-dismissible"
-  role="alert"
->
-  <button
-    type="button"
-    class="btn-close"
-    data-bs-dismiss="alert"
-    aria-label="Close"
-  ></button>
-  <strong>Work in Progress</strong> Please keep cheking for updates
-</div>
-{% endif %}
-<div class="card bg-white-green col-12 col-md-10 mx-auto mb-2">
-
+<div class="card bg-white-green col-md-10 mx-auto mb-2">
+  
 <h4 class="card-header display-3 bg-gray-green text-dark">{{title|title}}</h4>
 
     {% if image %}
@@ -71,6 +71,8 @@
     alt="{title}"
     /> </div>
     {% endif%}
+
+    
 {% block content%}
 <div class="card bg-white-green col-12 col-md-10 mx-auto mb-2 border-0 p-3">
   {{content}}    
@@ -79,10 +81,28 @@
 {% endblock content %}
 
 </div>
-
 {% endblock wrapper %}
 
 {% block action %}
 
+<div class="container mx-auto">
+<nav aria-label="Folder navigation">
+  <ul class="pagination">
+    {% directory_contents  request|parent order_by='order' as links %}
+
+    {% with links|get_previous_page:order as link %}{% if  link %} <!-- custom tag that gives me the previoues page, if empty not do it -->
+    <li class="page-item"><a class="page-link" href="/{{link.slug}}/">Previous</a></li>
+    {% endif %}{% endwith %}
+
+    {% for link in links %}
+      <li class="page-item"><a class="page-link {% if link.slug == slug %}active{% endif %}" href="/{{link.slug}}/">{{link.order}}</a></li> <!-- loop through directory pages 'order'-->
+      {% endfor%}
+
+    {% with links|get_next_page:order as link %}{% if link  %} <!-- custom tag that gives me the next page, if empty not do it-->
+      <li class="page-item"><a class="page-link" href="/{{link.slug}}/">Next</a></li>
+    {% endif %} {% endwith %}
+  </ul>
+</nav>
+</div>
 
 {% endblock action%}

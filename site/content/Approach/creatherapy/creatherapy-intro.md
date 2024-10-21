@@ -1,5 +1,5 @@
 ---
-title: 'CreaTherapy:intro'
+title: 'CreaTherapy: Introduction'
 order: 1
 template: coltrane/group-nav.html
 active: ok

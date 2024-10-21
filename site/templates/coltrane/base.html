@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{title}}</title>
 
     <!-- bootstrap watch https://bootswatch.com/-->
-    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"> 
-    <link rel="stylesheet" href="{% static 'css/style.css' %}"> 
+    <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}"> 
+    <link rel="stylesheet" href="{% static "css/style.css" %}"> 
 
     <!--font icons bootstrap css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -51,14 +51,14 @@
                   {% for area in areas %}
                   <a class="nav-link 
                   {% if slug|url_section:1 == area.link %}active{% endif %}
-                  {% if area.active == 'disabled' %}disabled{% endif %}
-                      {% if link.active == 'disabled' %}
+                  {% if area.active == "disabled" %}disabled{% endif %}
+                      {% if link.active == "disabled" %}
                       <i class="bi bi-tools"></i>
                       {% endif %}
                   " 
                         href="{{area.link}}">
                     {{area.title}}
-                    {% if area.active == 'disabled' %}
+                    {% if area.active == "disabled" %}
                     <i class="bi bi-tools"></i>
                     {% endif %}
                   </a></li>
@@ -125,6 +125,6 @@
 </footer>
 
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-        <script src="{% static 'js/bottom-nav.js' %}"></script>
+        <script src="{% static "js/bottom-nav.js" %}"></script>
         </body>
 </html>

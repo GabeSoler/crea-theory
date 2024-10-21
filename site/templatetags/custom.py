@@ -47,4 +47,23 @@ def breadcrumb(url:str):
         url_list.append(section)
     return {"url_list":url_list[1:]}
 
+# Filters to be able to calculate pagination
+@register.filter
+def minus(value, arg):
+    return value - arg
 
+@register.filter
+def get_next_page(value:dict,order:str):
+    item = {}
+    for d in value:
+        if d['order'] == order+1:
+            item = d
+    return item
+
+@register.filter
+def get_previous_page(value:dict,order:str)->dict:
+    item = {}
+    for d in value:
+        if d['order'] == order-1:
+            item = d
+    return item
