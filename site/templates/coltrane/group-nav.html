@@ -21,10 +21,18 @@ aria-label="Close"
 
 {% endblock intro %}
 
+{% block navButton %}
+<button class="btn position-relative float-end" 
+type="button" data-bs-toggle="offcanvas" 
+data-bs-target="#offcanvasScrolling" 
+aria-controls="offcanvasScrolling"><i class="bi bi-layout-sidebar-inset"></i>
+</button>
+{% endblock navButton%}
+
 {% block wrapper%}
 
 {% directory_contents  request|parent order_by='order' as links %}
-<button class="btn btn-info position-fixed" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">>></button>
+
 
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
   <div class="offcanvas-header">
@@ -85,21 +93,17 @@ aria-label="Close"
 
 {% block action %}
 
-<div class="container mx-auto">
-<nav aria-label="Folder navigation">
+<div class="container me-1">
+<nav aria-label="previous/next navigation">
   <ul class="pagination">
     {% directory_contents  request|parent order_by='order' as links %}
 
     {% with links|get_previous_page:order as link %}{% if  link %} <!-- custom tag that gives me the previoues page, if empty not do it -->
-    <li class="page-item"><a class="page-link" href="/{{link.slug}}/">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="/{{link.slug}}/">Previous: <small>"{{link.title}}"</small></a></li>
     {% endif %}{% endwith %}
 
-    {% for link in links %}
-      <li class="page-item"><a class="page-link {% if link.slug == slug %}active{% endif %}" href="/{{link.slug}}/">{{link.order}}</a></li> <!-- loop through directory pages 'order'-->
-      {% endfor%}
-
     {% with links|get_next_page:order as link %}{% if link  %} <!-- custom tag that gives me the next page, if empty not do it-->
-      <li class="page-item"><a class="page-link" href="/{{link.slug}}/">Next</a></li>
+      <li class="page-item"><a class="page-link" href="/{{link.slug}}/">Next: <small>"{{link.title}}"</small></a></li>
     {% endif %} {% endwith %}
   </ul>
 </nav>

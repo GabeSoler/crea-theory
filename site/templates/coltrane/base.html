@@ -31,50 +31,53 @@
 
 <body class="bg-light">
                         <!--Navbar starts-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary boder position-sticky" data-bs-theme="dark" id="navbar">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary boder sticky-top col-12 z-1" data-bs-theme="dark" id="navbar">
     <div class="container-fluid">
         <a class="navbar-brand text-light" style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="/" id="nav-title">
             CreaTheory<span class="text-light" style="font-family:verdana,san-serif;"></span> </a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <!-- collapsable part of the Navegation Bar -->
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+            
+          {% block navButton %}{% endblock navButton %}
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <!-- collapsable part of the Navegation Bar -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb2 mb-md-0"> <!-- "me" refers to left, and "ms" to right -->
-                <li class="nav-item">
-
-                  {% directory_contents  "areas" order_by="order" as areas %}
-                  {% for area in areas %}
-                  <a class="nav-link 
-                  {% if slug|url_section:1 == area.link %}active{% endif %}
-                  {% if area.active == "disabled" %}disabled{% endif %}
-                      {% if link.active == "disabled" %}
-                      <i class="bi bi-tools"></i>
-                      {% endif %}
-                  " 
-                        href="{{area.link}}">
-                    {{area.title}}
-                    {% if area.active == "disabled" %}
-                    <i class="bi bi-tools"></i>
-                    {% endif %}
-                  </a></li>
-                    {% endfor %}
+              <li class="nav-item">
+                
+                {% directory_contents  "areas" order_by="order" as areas %}
+                {% for area in areas %}
+                <a class="nav-link 
+                {% if slug|url_section:1 == area.link %}active{% endif %}
+                {% if area.active == "disabled" %}disabled{% endif %}
+                {% if link.active == "disabled" %}
+                <i class="bi bi-tools"></i>
+                {% endif %}
+                " 
+                href="{{area.link}}">
+                {{area.title}}
+                {% if area.active == "disabled" %}
+                <i class="bi bi-tools"></i>
+                {% endif %}
+              </a></li>
+              {% endfor %}
+              <li class="nav-item"><a class="nav-link" href="https://crea-therapy.com/">CreaTherapy<i class="bi bi-box-arrow-in-up-right"></i></a></li>
             </ul><!-- End of links on left side of nvbar -->
             
             <!-- Account related links-->
             <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-
+              
             </ul> 
-
-             <!-- End of account related links -->
-
-
-        </div> <!-- Closes collapsible parts of navbar -->
-    </div><!-- closes navbar container-->
+            
+            <!-- End of account related links -->
+            
+            
+          </div> <!-- Closes collapsible parts of navbar -->
+        </div><!-- closes navbar container-->
 </nav><!-- end of navbar -->
 
 <!-- Main section -->
