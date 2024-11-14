@@ -1,0 +1,71 @@
+{   
+    "style" : 
+    {
+        "follower_1":70,
+        "propositive_1":60,
+        "challenger_1":70,
+        "acceptant_1":30,
+        "intensive_1":70,
+        "extensive_1":40,
+        "divider_1":70,
+        "containment_1":30,
+        "becoming_1":30,
+        "development_1":60,
+        "individuation_1":80,
+        "belonging_1":70
+    },
+
+    "cont_position" :
+         { 
+        "group" : "inquisitive",
+        "image" : ""
+        },
+    "cont_path" :
+         {
+        "group" : "sage",
+        "image" : ""
+        },
+    "cont_tradition" :
+         {
+        "group" : "warrior",
+        "image" : ""
+        },
+
+    "components" : {
+        "body":1,
+        "feelings":1,
+        "expression":1,
+        "thoughts":1,
+        "narrative":1,
+        "dreaming":1,
+        "re_prog":1,
+        "subliminal":1,
+        "subparts":1,
+        "spiritual":1,
+        "relational":1,
+        "systems":1,
+        "setup":1,
+        "transOb":1,
+        "family":1,
+        "antropology":1,
+        "arts":1,
+        "politics":1,
+        "philosophy":1,
+        "worldview":1,
+        "individuation":1,
+        "sex_gender":1,
+        "values":1,
+        "belonging":1,
+        "roles":1
+    },
+    "big_trad" : 
+        {
+        "hemeneutic":1,
+        "phenomenological":1,
+        "cybernetic":1,
+        "spiritual":1,
+        "scientific":1,
+        "constructive":1,
+        "participatory":1
+        }
+    }

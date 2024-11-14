@@ -6,7 +6,9 @@ active: disabled
 publish_date: 2024-09-17 20:20:01
 ---
 
+# Professional Growth
 
+When we start our jouney as a psychotherapist we 
 - Proficiency
     
     Curious: Few scattered ideas
