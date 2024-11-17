@@ -1,6 +1,6 @@
 ---
 title: Profiles
-description: Know yourself as a therapist
+description: Understand the profile system to help you navigate the field.
 order: 2
 template: coltrane/content.html
 active: ok

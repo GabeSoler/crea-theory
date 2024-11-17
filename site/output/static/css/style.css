@@ -5,15 +5,21 @@ image,img {
 
 blockquote {
     background-color: rgb(233, 240, 241);
-    border:0.2em;
-    border-color: rgb(37, 44, 44);
-    border-left: 0.5rem;
+    border-left: 0.5rem solid #026991;
     padding:0.5rem;
     margin-left: 2%;
 }
 
 .bg-dark-blue {
     background-color:#003449;
+
+}
+.bg-dark-blue-subtle {
+    background-color:#026991;
+
+}
+.bg-dark-blue-light {
+    background-color:#eef4f6;
 
 }
 .border-dark-blue {

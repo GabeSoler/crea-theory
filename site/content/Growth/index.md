@@ -17,3 +17,13 @@ publish_date: 2024-07-30 20:20:01
     {% endfor %}
 </ul>
 
+<h3><a href="/Growth/shadow/">Shadow Work</a></h3>
+{% directory_contents 'Growth/shadow' order_by='order' as directory_contents %}
+{% for content in  directory_contents %}
+    {% if content.active != 'disabled' %}
+    <li><a href="/{{content.slug}}/"
+    >{{content.title}}
+    </a></li>
+    {% endif %}
+    {% endfor %}
+</ul>

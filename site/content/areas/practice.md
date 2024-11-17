@@ -1,6 +1,6 @@
 ---
 title: Practice
-description: Learn how to help others
+description: Get a sense of therapeutic principles that go beyond traditions.
 order: 3
 template: coltrane/content.html
 active: disabled

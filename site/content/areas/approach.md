@@ -1,6 +1,6 @@
 ---
 title: Approach
-description: Understand CreaTherapy approach
+description: Understand CreaTherapy approach and its theoretical innovations
 order: 1
 template: coltrane/content.html
 active: ok

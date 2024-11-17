@@ -29,16 +29,7 @@ publish_date: 2024-07-30 20:20:01
     {% endfor %}
 </ul>
 
-<h3><a href="/Practice/general_directions/">Shadow Work</a></h3>
-{% directory_contents 'Practice/shadow' order_by='order' as directory_contents %}
-{% for content in  directory_contents %}
-    {% if content.active != 'disabled' %}
-    <li><a href="/{{content.slug}}/"
-    >{{content.title}}
-    </a></li>
-    {% endif %}
-    {% endfor %}
-</ul>
+
 
 <h3><a href="/Practice/general_directions/">Symptoms to work with</a></h3>
 {% directory_contents 'Practice/symptoms' order_by='order' as directory_contents %}

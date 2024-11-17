@@ -1,6 +1,6 @@
 ---
 title: Growth
-description: a streamlined system of development
+description: Find balance between growth and shadow depth.
 order: 4
 template: coltrane/content.html
 active: ok
