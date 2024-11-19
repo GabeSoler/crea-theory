@@ -1,45 +1,18 @@
 ---
-title: 'Practice index'
+title: 'Practice Index'
+order: 1
 template: coltrane/content.html
-active: disabled
-publish_date: 2024-07-30 20:20:01
+active: ok
+publish_date: 2024-11-18 20:20:01
 ---
+# Practice Essays
 
+Here I have written a few essays that aim to help you think between approaches without losing coherence. This are some sort of examples of my way of thinking and at teh same time useful reflections about psychotherapy practice. 
 
-<h3><a href="/Practice/general_directions/">General Directions</a></h3>
-{% directory_contents 'Practice/general_directions' order_by='order' as directory_contents %}
+## Sections
+{% directory_contents 'Practice/' order_by='order' as directory_contents %}
 <ul>
-{% for content in  directory_contents %}
-    {% if content.active != 'disabled' %}
-    <li><a href="/{{content.slug}}/"
-    >{{content.title}}
-    </a></li>
-    {% endif %}
-    {% endfor %}
-</ul>
-
-<h3><a href="/Practice/general_directions/">Therapeutic Principles</a></h3>
-{% directory_contents 'Practice/principles' order_by='order' as directory_contents %}
-{% for content in  directory_contents %}
-    {% if content.active != 'disabled' %}
-    <li><a href="/{{content.slug}}/"
-    >{{content.title}}
-    </a></li>
-    {% endif %}
-    {% endfor %}
-</ul>
-
-
-
-<h3><a href="/Practice/general_directions/">Symptoms to work with</a></h3>
-{% directory_contents 'Practice/symptoms' order_by='order' as directory_contents %}
-<a href="/Practice/symptoms/">Symptoms page</a>
-<ul>
-{% for content in  directory_contents %}
-    {% if content.active != 'disabled' %}
-    <li><a href="/{{content.slug}}/"
-    >{{content.title}}
-    </a></li>
-    {% endif %}
+{% for content in directory_contents %}
+    <li><a href="/{{content.slug}}/">{{content.title}}</a></li>
     {% endfor %}
 </ul>
