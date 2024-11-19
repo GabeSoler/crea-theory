@@ -9,8 +9,8 @@
 <div class="card col-12 mb-2" id="welcomeCard">
   <div class="bg-primary border border-primary-subtle border-5 shadow">
     <div class="card-body p-3 m-3 text-light fs-4 lead col-9">
-      <h2 class="card-title text-light display-3 fw-bold">A new perspective</h2>
-      <p class="card-text">{{content}}</p>
+      <h2 class="card-title text-light display-3 fw-bold" style="height:1em;" id="animateText"><span id="animateMe1">A</span> <span id="animateMe2">new</span> <span id="animateMe3">perspective</span></h2>
+      <p class="card-text" id="welcomeText">{{content}}</p>
     </div>
   </div>
 </div>
@@ -21,7 +21,11 @@
       <div class="row">
         <div class="card-body col-9">
             <h2 class="display-5">
-              <a class="link-primary link-offset-2 link-underline link-underline-opacity-20 link-underline-opacity-75-hover" 
+              <a class="link-primary link-offset-2 
+                        link-underline link-underline-opacity-20 
+                        link-underline-opacity-75-hover
+                        stretched-link
+                        " 
               href="{{area.link}}">{{area.title|title}}
               {% if area.active == 'disabled' %}
               <i class="bi bi-tools"></i>

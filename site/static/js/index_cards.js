@@ -2,7 +2,7 @@
 
 $(function(){
 
-    
+    // True if in the view port
     function isInViewport(card) {
         var elementTop = $(card).offset().top;
         var elementBottom = elementTop + $(card).outerHeight();
@@ -12,23 +12,31 @@ $(function(){
         };
 
 
+    //Animate if scrolling and in view port, appearing from right
     $(window).scroll(function() {
-          $(".card").each(function(){
-            if (isInViewport(this)) {
-              this.animate({
+          $(".card").not(":first").each(function(index,item){
+            if (isInViewport(item)) {
+              item.animate({
                 "transform":"translateX(0)",
                 "opacity":1
-                },900)          
+                },1200+index*100,"ease-out")          
               } else {
                 this.animate({
-                    "transform":"translateX(100%)",
+                    "transform":"translateX(5%)",
                     "opacity":0
-                    },500)    
+                    },800)    
               };
             });
-            this.stop()
+            if (isInViewport($("#welcomeText"))){
+                    $("#animateMe1").fadeIn(400);
+                    $("#animateMe2").fadeIn(800);
+                    $("#animateMe3").fadeIn(1000);
+            }else{
+                $("#animateMe1").hide();
+                $("#animateMe2").hide();
+                $("#animateMe3").hide();
+            };           
         });
-    
-    });
-
-    
+    $("#landing-text").hide().fadeIn(900);
+    $("#landing-button").hide().fadeIn(1800);
+})

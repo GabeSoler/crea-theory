@@ -6,5 +6,3 @@ var myCollapsible = document.getElementById('navbarCollapseBottom')
 myCollapsible.addEventListener('shown.bs.collapse', function () {
 element.scrollIntoView();})
 
-
-
