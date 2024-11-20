@@ -32,9 +32,9 @@ $(function(){
                     $("#animateMe2").fadeIn(800);
                     $("#animateMe3").fadeIn(1000);
             }else{
-                $("#animateMe1").hide();
-                $("#animateMe2").hide();
-                $("#animateMe3").hide();
+                $("#animateMe1").fadeOut();
+                $("#animateMe2").fadeOut();
+                $("#animateMe3").fadeOut();
             };           
         });
     $("#landing-text").hide().fadeIn(900);
