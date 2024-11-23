@@ -25,8 +25,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{% static "favicon/favicon-16x16.png" %}">
     <link rel="manifest" href="{% static "favicon/site.webmanifest" %}"> 
 
-    <!-- JQery 3 CDN -->
+    <!-- JQery and velocity CDN plus a block to add individual js on pages -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.ui.min.js"></script>
     <script src={% block script%}{% endblock script%}></script>
 </head> <!-- end of head-->
 
@@ -34,7 +36,7 @@
                         <!--Navbar starts-->
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary boder sticky-top col-12 z-1" data-bs-theme="dark" id="navbar">
     <div class="container-fluid">
-        <a class="navbar-brand text-light" style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="/" id="nav-title">
+        <a class="navbar-brand text-light" style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="/" id="brand-text">
             CreaTheory<span class="text-light" style="font-family:verdana,san-serif;"></span> </a>
             
           {% block navButton %}{% endblock navButton %}

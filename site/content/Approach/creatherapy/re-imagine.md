@@ -11,7 +11,7 @@ Sometimes, I feel we are just dipping our toes in the water, wondering what ther
 
 When I try to step forward, I find myself with two contradictory limitations: attempts to make therapy more organised and scientific and attempts to divide it into cult-like microspheres. 
 
-I feel a tension between standardisation and plurality that stagnates and moves forward. 
+I feel a tension between standardisation and plurality that stagnates my movement. 
 
 So, how can we overcome this paradigmatic tension?
 
@@ -31,7 +31,7 @@ CreaTheory is divided into sections:
 
 The sections are sometimes divided into groups; if you are in an essay and see <i class="bi bi-layout-sidebar-inset"></i> on the nav, it will show you the group you are in. 
 
-CreaTherapy Web App is the other side of the project, and I would like to also give you an overview of it. The site has multiple tools you can only open if you are signed up. I created each to help you navigate a plural space of theory/practice so we do not get lost in the attempt.
+[CreaTherapy](https://crea-therapy.com/) Web App is the other side of the project, and I would like to also give you an overview of it. The site has multiple tools you can only open if you are signed up. I created each to help you navigate a plural space of theory/practice so we do not get lost in the attempt.
 
 The profile system aims to help you map your caring and learning as a process so you can save multiple entries for each and keep an eye on your changes. A personal style and disposition section separates your tradition's teachings from your care assumptions. It offers suggestions for styles and their correlated approaches to give you a field flavour (or an intensities map, as sometimes I think about it). 
 

@@ -12,7 +12,7 @@ The second, the components, it is to help you develop practical theories and tra
 
 The third is about reality and how do you engage with it, what matters for you at a deeper level, how do you think knowledge is better created, how do you think life is better explainer.
 
-Please explore, question and wonder *with* the concepts I am offering.
+Please explore, question and wonder *with* the concepts I am offering. Have a look to the [WebApp](https://crea-therapy.com/) if you please.
 
 
 <h3><a href="/Profiles/components/">Components</a></h3>
