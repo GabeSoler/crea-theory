@@ -1,0 +1,209 @@
+{% extends 'coltrane/base.html' %}
+
+{% block content %}
+
+<div class="p-3">
+<!--Title card-->
+<div class="card mb-3 mt-2 border-primary border-3 bg-secondary">
+<div class="card-body">
+  <h2 class="card-header">Therapist Style Example: {{author|title}}</h2>
+    <p class='card-text'>
+      Here you can see an imaginary profile of {{author|title}}.
+    </p>
+    <div class="card-body bg-primary-subtle border border-primary border-2 rounded">
+      <h3>Comment:</h3>
+        {{content}}
+    </div>
+  </div>
+</div>
+
+
+ <!--Personal Profile-->   
+<div class="card mb-3 border-primary border-1 soft-blue">
+      <div class="card-body">
+  <h2 class="card-title">Profile:</h2>
+  <p class="card-text">
+    This example shows an hypothetical therapeutic profile, where the first is the care style, the second a disposition of curiosity and interest, and the third the tension between individuation and tradition. 
+  </p>
+
+      <div class="card-body soft-green rounded">
+      <h2 class="card-title">Your current personal Profile:</h2>
+      <div class='row'>
+        <div class='col'>
+          <image src="{% static pos_image %}" class='img-thumbnail border-2 border-primary rounded-circle' style='max-height:6em;'>
+          <p class="card-text posText">{{position|title}}</p>
+          </div>
+      <div class='col'>
+        <image src="{% static path_image %}" class='img-thumbnail border-2 border-primary rounded-circle' style='max-height:6em;'>
+        <p class="card-text posText">{{path|title}}</p>
+      </div>
+
+      <div class='col'>
+        <image src="{% static trad_image  %}" class='img-thumbnail border-2 border-primary rounded-circle' style='max-height:6em;'>
+      <p class="card-text posText">{{tradition|title}}</p>
+    </div>
+  </div><!--end row-->
+  </div><!--end card-body -->
+
+
+
+  </div>
+  </div>
+
+<!-- end personal profile -->
+
+
+
+<!-- Components bar section -->
+<div class="card mb-3 border-primary border-1 soft-blue"> 
+    <div class="card-body">
+    
+      <h2 class='card-title'>Components</h2>
+      <p class='card-text'>
+        This section shows the main areas of interest and techniques that {{author|title}} is interested in. It has five sections of five Components each:
+        <ul>
+          <li>Subjective: dedicated to the direct experience of a person</li>
+          <li>Extended Awareness: areas where we need help to access its influence as happens in a more subtle way</li>
+          <li>Context: areas surrounding the person in the experiential field</li>
+          <li>Culture: a more abstract area of the context and the social field</li>
+          <li>Identity: the concerns that make a person develop as such and promote their growth</li>
+        </ul>
+      </p>
+      
+
+  <!--Components results in bars-->
+  
+  <!--Subjective loop-->
+  <h3>Subjective</h3>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.primary}}" role="progressbar" style="width: {{body}}%" aria-valuenow="{{body}}" aria-valuemin="0" aria-valuemax="100">body-{{body}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.primary}}" role="progressbar" style="width: {{feelings}}%" aria-valuenow="{{feelings}}" aria-valuemin="0" aria-valuemax="100">feelings-{{feelings}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.primary}}" role="progressbar" style="width: {{expression}}%" aria-valuenow="{{expression}}" aria-valuemin="0" aria-valuemax="100">expression-{{expression}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.primary}}" role="progressbar" style="width: {{thoughts}}%" aria-valuenow="{{thoughts}}" aria-valuemin="0" aria-valuemax="100">thoughts-{{thoughts}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.primary}}" role="progressbar" style="width: {{narrative}}%" aria-valuenow="{{narrative}}" aria-valuemin="0" aria-valuemax="100">narrative-{{narrative}}%</div>
+    </div>
+  <!--end of subjective section-->
+
+  <!--Extended Awareness section loop-->
+  <h3>Extended Awareness</h3>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.warning}}" role="progressbar" style="width: {{dreaming}}%" aria-valuenow="{{dreaming}}" aria-valuemin="0" aria-valuemax="100">dreaming-{{dreaming}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.warning}}" role="progressbar" style="width: {{re_prog}}%" aria-valuenow="{{re_prog}}" aria-valuemin="0" aria-valuemax="100">re_prog-{{re_prog}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.warning}}" role="progressbar" style="width: {{subliminal}}%" aria-valuenow="{{subliminal}}" aria-valuemin="0" aria-valuemax="100">subliminal-{{subliminal}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.warning}}" role="progressbar" style="width: {{subparts}}%" aria-valuenow="{{subparts}}" aria-valuemin="0" aria-valuemax="100">subparts-{{subparts}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.warning}}" role="progressbar" style="width: {{spiritual}}%" aria-valuenow="{{spiritual}}" aria-valuemin="0" aria-valuemax="100">spiritual-{{spiritual}}%</div>
+    </div>
+
+  <!--Context section loop-->
+  <h3>Context</h3>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.info}}" role="progressbar" style="width: {{relational}}%" aria-valuenow="{{relational}}" aria-valuemin="0" aria-valuemax="100">relational-{{relational}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.info}}" role="progressbar" style="width: {{systems}}%" aria-valuenow="{{systems}}" aria-valuemin="0" aria-valuemax="100">systems-{{systems}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.info}}" role="progressbar" style="width: {{setup}}%" aria-valuenow="{{setup}}" aria-valuemin="0" aria-valuemax="100">setup-{{setup}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.info}}" role="progressbar" style="width: {{transOb}}%" aria-valuenow="{{transOb}}" aria-valuemin="0" aria-valuemax="100">transOb-{{transOb}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.info}}" role="progressbar" style="width: {{family}}%" aria-valuenow="{{family}}" aria-valuemin="0" aria-valuemax="100">family-{{family}}%</div>
+    </div>
+
+  <!--Culture section loop-->
+  <h3>Culture</h3>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.danger}}" role="progressbar" style="width: {{antropology}}%" aria-valuenow="{{antropology}}" aria-valuemin="0" aria-valuemax="100">antropology-{{antropology}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.danger}}" role="progressbar" style="width: {{arts}}%" aria-valuenow="{{arts}}" aria-valuemin="0" aria-valuemax="100">arts-{{arts}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.danger}}" role="progressbar" style="width: {{politics}}%" aria-valuenow="{{politics}}" aria-valuemin="0" aria-valuemax="100">politics-{{politics}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.danger}}" role="progressbar" style="width: {{philosophy}}%" aria-valuenow="{{philosophy}}" aria-valuemin="0" aria-valuemax="100">philosophy-{{philosophy}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.danger}}" role="progressbar" style="width: {{worldview}}%" aria-valuenow="{{worldview}}" aria-valuemin="0" aria-valuemax="100">worldview-{{worldview}}%</div>
+    </div>
+
+  <!--Identity section loop-->
+  <h3>Identity</h3>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.success}}" role="progressbar" style="width: {{individuation}}%" aria-valuenow="{{individuation}}" aria-valuemin="0" aria-valuemax="100">individuation-{{individuation}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.success}}" role="progressbar" style="width: {{sex_gender}}%" aria-valuenow="{{sex_gender}}" aria-valuemin="0" aria-valuemax="100">sex_gender-{{sex_gender}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.success}}" role="progressbar" style="width: {{values}}%" aria-valuenow="{{values}}" aria-valuemin="0" aria-valuemax="100">values-{{values}}</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.success}}" role="progressbar" style="width: {{belonging}}%" aria-valuenow="{{belonging}}" aria-valuemin="0" aria-valuemax="100">belonging-{{belonging}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped border {{data.background.success}}" role="progressbar" style="width: {{roles}}%" aria-valuenow="{{roles}}" aria-valuemin="0" aria-valuemax="100">roles-{{roles}}%</div>
+    </div>
+
+  </div>
+</div>
+  <!--end of Components-->
+
+
+<!--Big traditions Section-->
+<div class="card mb-3 border-primary border-1 soft-blue">
+  <div class="card-body">
+  <h2 class="card-title">Big Traditions</h2>
+  <p class="card-text">These are the main philosophical traditions behind the psychotherapy. We find sometimes mixes of them, and sub-groups, but they define clear paths relevant today.</p>
+  <p class="card-text">This test will help you to recognise your afiliation with some reality assumptions.</p>
+
+  <!--Big traditions results loop-->
+    <div class="progress">
+      <div class="progress-bar {{data.background.primary}} border border-2" role="progressbar" style="width: {{hemeneutic}}%" aria-valuenow="{{hemeneutic}}" aria-valuemin="1" aria-valuemax="100">hemeneutic-{{hemeneutic}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar {{data.background.warning}} border border-2" role="progressbar" style="width: {{phenomenological}}%" aria-valuenow="{{phenomenological}}" aria-valuemin="1" aria-valuemax="100">phenomenological-{{phenomenological}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar {{data.background.info}} border border-2" role="progressbar" style="width: {{cybernetic}}%" aria-valuenow="{{cybernetic}}" aria-valuemin="1" aria-valuemax="100">cybernetic-{{cybernetic}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar {{data.background.danger}} border border-2" role="progressbar" style="width: {{spiritual}}%" aria-valuenow="{{spiritual}}" aria-valuemin="1" aria-valuemax="100">spiritual-{{spiritual}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar {{data.background.success}} border border-2" role="progressbar" style="width: {{scientific}}%" aria-valuenow="{{scientific}}" aria-valuemin="1" aria-valuemax="100">scientific-{{scientific}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar {{data.background.secondary}} border border-2" role="progressbar" style="width: {{constructive}}%" aria-valuenow="{{constructive}}" aria-valuemin="1" aria-valuemax="100">constructive-{{constructive}}%</div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar {{data.background.dark}} border border-2" role="progressbar" style="width: {{participatory}}%" aria-valuenow="{{participatory}}" aria-valuemin="1" aria-valuemax="100">participatory-{{participatory}}%</div>
+    </div>
+
+  </div>
+</div>
+  <!--end traditions card-->
+
+</body>
+
+
+  {% endblock content%}

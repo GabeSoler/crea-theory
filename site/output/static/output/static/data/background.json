@@ -1,0 +1,11 @@
+
+{
+    "primary": "bg-primary text-light fw-bold",
+    "warning": "bg-warning text-primary fw-bold",
+    "info": "bg-info text-danger fw-bold",
+    "danger": "bg-danger text-dark fw-bold",
+    "success": "bg-success text-danger fw-bold",
+    "secondary": "bg-secondary text-primary fw-bold",
+    "light": "bg-light text-dark fw-bold",
+    "dark": "bg-dark text-ligh fw-boldt"
+}

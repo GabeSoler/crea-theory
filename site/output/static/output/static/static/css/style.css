@@ -1,0 +1,29 @@
+image,img {
+    max-width:80%;
+}
+
+
+blockquote {
+    background-color: rgb(196, 220, 223);
+    border-left: 0.5rem solid #026991;
+    padding:0.5rem;
+    margin-left: 2%;
+}
+
+.bg-dark-blue {
+    background-color:#003449;
+
+}
+.bg-dark-blue-subtle {
+    background-color:#5ebbe0;
+
+}
+.bg-dark-blue-light {
+    background-color:#eef4f6;
+
+}
+.border-dark-blue {
+    border-color:#003449;
+    border:0.5rem;
+
+}
