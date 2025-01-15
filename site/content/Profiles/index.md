@@ -14,6 +14,8 @@ The third is about reality and how do you engage with it, what matters for you a
 
 Please explore, question and wonder *with* the concepts I am offering. Have a look to the [WebApp](https://crea-therapy.com/) if you please.
 
+> You can see two examples: [Jung](/authors/jung/profile/) , [Freud](/authors/freud/profile/)
+
 
 <h3><a href="/Profiles/components/">Components</a></h3>
 {% directory_contents 'Profiles/components' order_by='order' as directory_contents %}
