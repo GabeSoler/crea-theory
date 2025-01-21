@@ -35,7 +35,7 @@
                         <!--Navbar starts-->
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary boder sticky-top col-12 z-1" data-bs-theme="dark" id="navbar">
     <div class="container-fluid">
-        <a class="navbar-brand text-light" style="font-family:§Edu AU VIC WA NT Hand',verdana,san-serif;" href="/" id="brand-text">
+        <a class="navbar-brand text-light" style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="/" id="brand-text">
             CreaTheory<span class="text-light" style="font-family:verdana,san-serif;"></span> </a>
             
           {% block navButton %}{% endblock navButton %}
@@ -49,10 +49,10 @@
           <!-- collapsable part of the Navegation Bar -->
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb2 mb-md-0"> <!-- "me" refers to left, and "ms" to right -->
+              
+              {% directory_contents  "areas" order_by="order" as areas %}
+              {% for area in areas %}
               <li class="nav-item">
-                
-                {% directory_contents  "areas" order_by="order" as areas %}
-                {% for area in areas %}
                 <a class="nav-link 
                 {% if slug|url_section:1 == area.link %}active{% endif %}
                 {% if area.active == "disabled" %}disabled{% endif %}
