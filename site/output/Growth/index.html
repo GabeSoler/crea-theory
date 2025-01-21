@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{title}}</title>
+    <title>growth index</title>
 
     <!-- bootstrap watch https://bootswatch.com/-->
-    <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}"> 
-    <link rel="stylesheet" href="{% static "css/style.css" %}"> 
+    <link rel="stylesheet" href="/static/static/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="/static/static/css/style.css"> 
 
     <!--font icons bootstrap css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -19,16 +19,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap&text=CreaTheory" rel="stylesheet"> 
 
      <!--favicons-->
-    <link rel="apple-touch-icon" sizes="180x180" href="{% static "favicon/apple-touch-icon.png" %}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{% static "favicon/favicon-32x32.png" %}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{% static "favicon/favicon-16x16.png" %}">
-    <link rel="manifest" href="{% static "favicon/site.webmanifest" %}"> 
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/static/static/favicon/site.webmanifest"> 
 
     <!-- JQery and velocity CDN plus a block to add individual js on pages -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.ui.min.js"></script>
-    <script src="{% block script%}{% endblock script%}"></script>
+    <script src=></script>
 </head> <!-- end of head-->
 
 <body class="bg-light">
@@ -38,7 +38,7 @@
         <a class="navbar-brand text-light" style="font-family:§Edu AU VIC WA NT Hand',verdana,san-serif;" href="/" id="brand-text">
             CreaTheory<span class="text-light" style="font-family:verdana,san-serif;"></span> </a>
             
-          {% block navButton %}{% endblock navButton %}
+          
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
@@ -51,22 +51,48 @@
             <ul class="navbar-nav me-auto mb2 mb-md-0"> <!-- "me" refers to left, and "ms" to right -->
               <li class="nav-item">
                 
-                {% directory_contents  "areas" order_by="order" as areas %}
-                {% for area in areas %}
+                
+                
                 <a class="nav-link 
-                {% if slug|url_section:1 == area.link %}active{% endif %}
-                {% if area.active == "disabled" %}disabled{% endif %}
-                {% if link.active == "disabled" %}
-                <i class="bi bi-tools"></i>
-                {% endif %}
+                
+                
+                
                 " 
-                href="{{area.link}}">
-                {{area.title}}
-                {% if area.active == "disabled" %}
-                <i class="bi bi-tools"></i>
-                {% endif %}
+                href="/Approach/">
+                Approach
+                
               </a></li>
-              {% endfor %}
+              
+                <a class="nav-link 
+                
+                
+                
+                " 
+                href="/Profiles/">
+                Profiles
+                
+              </a></li>
+              
+                <a class="nav-link 
+                
+                
+                
+                " 
+                href="/Practice/">
+                Practice
+                
+              </a></li>
+              
+                <a class="nav-link 
+                active
+                
+                
+                " 
+                href="/Growth/">
+                Growth
+                
+              </a></li>
+              
               <li class="nav-item"><a class="nav-link" href="https://crea-therapy.com/">CreaTherapy<i class="bi bi-box-arrow-in-up-right"></i></a></li>
             </ul><!-- End of links on left side of nvbar -->
             
@@ -85,16 +111,67 @@
 <!-- Main section -->
 
 <main style="min-height:86vh;">
-{% block intro %}
 
-{% endblock intro %}
-    {% block wrapper %}
-    {% block content %}
-        {{content}}
-    {% endblock content %}
-    {%endblock wrapper %}
-{% block action %}
-{% endblock action%}
+
+<!-- alert to alert users who go into areas not still ready -->
+
+
+    
+
+<div class="card bg-dark-blue-light col-12 col-md-10 mx-auto p-3">
+
+<h4 class="card-header display-3 bg-gray-green text-dark">Growth Index</h4>
+
+    
+    <div class="card-body col-10 mx-auto">
+
+<div class="container ">
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      
+      
+      <li class="breadcrumb-item"><a href="/Growth/">Growth</a></li>
+        
+      
+      
+      <li class="breadcrumb-item text-primary">index</li>
+        
+      
+    </ol>
+  </nav>
+<p>This space aims to help you think about your professional growth in a way that is not dissociated from your personal one. Psychotherapy is a strange profession that has a circular quality: our growth impacts work and work impact or growth. This phrase applies to any work, but only in therapy we see those effects on a daily basis and in a way that our same identity may be challenge.</p>
+<p><h3 id="mastery"><a href="/Growth/mastery/">Mastery</a></h3>
+
+<ul>
+
+    
+    <li><a href="/Growth/mastery/creation/">Creation
+    </a></li>
+    
+    
+    
+    <li><a href="/Growth/mastery/proficiency/">Proficiency
+    </a></li>
+    
+    
+    
+    
+</ul></p>
+<p><h3 id="shadow-work"><a href="/Growth/shadow/">Shadow Work</a></h3>
+
+
+</p>
+    
+</div>
+
+
+
+</div>
+
+
+
+
 
 </main>
 <footer>
