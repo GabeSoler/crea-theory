@@ -1,0 +1,4 @@
+Metadata-Version: 2.2
+Name: crea-theory
+Version: 0.1
+Requires-Dist: coltrane<=1

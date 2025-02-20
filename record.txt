@@ -1,2 +1,3 @@
 coltrane record --force --output /Users/gsole/Documents/Web-Work/Static_Site/crea-theory-static/
+just record --force --output /Users/gsole/Documents/Web-Work/Static_Site/crea-theory-static/
 coltrane play
