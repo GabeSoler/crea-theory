@@ -1,5 +1,6 @@
 [project]
 name = "crea-theory"
+version = '0.1'
 dependencies = [
     "coltrane <= 1"
 ]
