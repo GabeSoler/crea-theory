@@ -7,5 +7,5 @@
     "success": "bg-success text-danger fw-bold",
     "secondary": "bg-secondary text-primary fw-bold",
     "light": "bg-light text-dark fw-bold",
-    "dark": "bg-dark text-ligh fw-boldt"
+    "dark": "bg-dark text-light fw-bold"
 }

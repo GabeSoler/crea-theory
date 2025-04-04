@@ -1,5 +1,5 @@
 ---
-title: 'Subjective'
+title: Subjective
 order: 2
 template: coltrane/group-nav.html
 active: ok

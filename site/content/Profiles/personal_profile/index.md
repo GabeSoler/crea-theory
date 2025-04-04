@@ -1,5 +1,5 @@
 ---
-title: 'Personal Profile Index'
+title: Personal Profile Index
 order: 1
 template: coltrane/content.html
 active: ok

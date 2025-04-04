@@ -1,5 +1,5 @@
 ---
-title: 'Traditions and individuation'
+title: Traditions and individuation
 order: 3
 template: coltrane/group-nav.html
 active: ok

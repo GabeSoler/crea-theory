@@ -1,5 +1,5 @@
 ---
-title: 'Identity'
+title: Identity
 order: 6
 template: coltrane/group-nav.html
 active: ok

@@ -1,5 +1,5 @@
 ---
-title: 'Path of growth'
+title: Path of growth
 order: 2
 template: coltrane/group-nav.html
 active: ok

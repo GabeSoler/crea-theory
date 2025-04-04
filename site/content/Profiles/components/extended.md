@@ -1,5 +1,5 @@
 ---
-title: 'Extended Awareness'
+title: Extended Awareness
 order: 3
 template: coltrane/group-nav.html
 active: ok

@@ -1,5 +1,5 @@
 ---
-title: "Component's Intro"
+title: Component's Intro
 order: 1
 template: coltrane/group-nav.html
 active: ok

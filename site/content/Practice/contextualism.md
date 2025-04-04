@@ -1,5 +1,5 @@
 ----
-title: 'Paradigmatic Contextualism'
+title: Paradigmatic Contextualism
 order: 1
 template: coltrane/group-nav.html
 active: ok
@@ -8,13 +8,13 @@ publish_date: 2024-11-15 20:20:01
 
 # Paradigmatic Contextualism
 
-The idea of paradigmatic contextualism aims to bridge the conflict that emerges when using theories and practices from different traditions. 
+The idea of paradigmatic contextualism aims to bridge the conflict that emerges when using theories and practices from different traditions.
 
 The standard way of using paradigms consists of defining your way of seeing the world, obtaining valid knowledge, and running with that. You will often regard other traditions as wrong or problematic because their understanding and worldview contrast yours.
 
-Paradigmatic contextualism means that your paradigm varies depending on the context. It also means you have a system to move between paradigms. 
+Paradigmatic contextualism means that your paradigm varies depending on the context. It also means you have a system to move between paradigms.
 
-Switching between paradigms may feel unauthentic, fake, or manipulative. But hold with me…
+Switching between paradigms may feel unauthentic, fake, or manipulative. But hold with me.
 
 A client was talking to me about meeting with his grandma. He is gay and has not come out to her, and he feels that doing so would be painful. We arrived at a point in therapy when he went with his partner to a family wedding, and his grandma saw him with a male partner. He thought that everyone was now accepting him as a gay man in a happy and stable relationship.
 
@@ -24,7 +24,7 @@ What to do?
 
 We both concluded that his grandma was seeing the situation but that her paradigm could not reconcile it. Her paradigm was so strong that she accepted the partner but could not process her grandson's not having a woman.
 
-Paradigms are a strong thing. They are as vital as breathing and a reality of our human relational field. 
+Paradigms are a strong thing. They are as vital as breathing and a reality of our human relational field.
 
 When you follow paradigmatic contextualism, you may feel weak or have soft opinions, but the opposite is true.
 
@@ -54,25 +54,25 @@ From a cybernetic perspective, we can imagine an app sending messages to their s
 
 As information is contextual, sending my request to the wrong server or the server sending that information to the wrong app would not make sense.
 
-As humans, we constantly process information that is embedded in a context. As we increase our intellectual intelligence and relational intuitions in multiple perspectives, we develop a looser worldview. We slowly begin un-embedding our ways of thinking, allowing us to hold numerous views inside us. 
+As humans, we constantly process information that is embedded in a context. As we increase our intellectual intelligence and relational intuitions in multiple perspectives, we develop a looser worldview. We slowly begin un-embedding our ways of thinking, allowing us to hold numerous views inside us.
 
-The problem with this process is that without a system to make sense of multiplicity, we start to feel overwhelmed. Some of us accept the uncertainty and run with the unknown. 
+The problem with this process is that without a system to make sense of multiplicity, we start to feel overwhelmed. Some of us accept the uncertainty and run with the unknown.
 
 In my case, I started to draw some lines between these tensions and transitions. I started doing it spontaneously and then found authors who were doing the same (and were more mature thinkers than me).
 
-I think that you should not follow my models. At least not if you do not start drawing your own. 
+I think that you should not follow my models. At least not if you do not start drawing your own.
 
 Why would I discourage your to follow me?
 
-I would like to take my ideas as inspiration. Or as a point of reference. Or as some path in the sand that you do not need to follow but helps as a reference. 
+I would like to take my ideas as inspiration. Or as a point of reference. Or as some path in the sand that you do not need to follow but helps as a reference.
 
 Maybe as an open-source app, you can send requests to change if something does not work, or you can fork it and make your own.
 
-The point is: I want you to feel like an agent here. 
+The point is: I want you to feel like an agent here.
 
-First, I invite you to explore your context. Observe these paradigms in your life as you go about your day. 
+First, I invite you to explore your context. Observe these paradigms in your life as you go about your day.
 
-I would like you to see this as a mixed reality experiment, where the lenses are different ontologies and worldviews. 
+I would like you to see this as a mixed reality experiment, where the lenses are different ontologies and worldviews.
 
 To hold the question, how would it be to live a day with this idea?
 

@@ -1,8 +1,11 @@
 [project]
 name = "crea-theory"
 version = '0.1'
+requires-python = ">=3.12"
+description = "App to create a CreaTheory html page"
 dependencies = [
-    "coltrane <= 1"
+    "asgiref>=3.8.1",
+    "coltrane <= 0.38.7",
 ]
 
 [build-system]

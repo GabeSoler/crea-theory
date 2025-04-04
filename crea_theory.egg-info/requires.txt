@@ -1,1 +1,2 @@
-coltrane<=1
+asgiref>=3.8.1
+coltrane<=0.38.7

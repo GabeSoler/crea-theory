@@ -1,5 +1,5 @@
 ---
-title: 'profiles index'
+title: profiles index
 template: coltrane/content.html
 active: ok
 publish_date: 2024-10-07 20:20:01
@@ -16,16 +16,13 @@ Please explore, question and wonder *with* the concepts I am offering. Have a lo
 
 > You can see two examples: [Jung](/authors/jung/profile/) , [Freud](/authors/freud/profile/)
 
-
 <h3><a href="/Profiles/components/">Components</a></h3>
 {% directory_contents 'Profiles/components' order_by='order' as directory_contents %}
 <ul>
 {% for content in  directory_contents %}
     {% if content.active != 'disabled' %}
     <li><a href="/{{content.slug}}/"
-    >{{content.title}}
-    </a></li>
-    {% endif %}
+    >{{content.title}}</a></li>{% endif %}
     {% endfor %}
 </ul>
 
@@ -35,9 +32,7 @@ Please explore, question and wonder *with* the concepts I am offering. Have a lo
 {% for content in  directory_contents %}
     {% if content.active != 'disabled' %}
     <li><a href="/{{content.slug}}/"
-    >{{content.title}}
-    </a></li>
-    {% endif %}
+    >{{content.title}}</a></li>{% endif %}
     {% endfor %}
 </ul>
 
@@ -47,8 +42,6 @@ Please explore, question and wonder *with* the concepts I am offering. Have a lo
 {% for content in  directory_contents %}
     {% if content.active != 'disabled' %}
     <li><a href="/{{content.slug}}/"
-    >{{content.title}}
-    </a></li>
-    {% endif %}
+    >{{content.title}}</a></li>{% endif %}
     {% endfor %}
 </ul>

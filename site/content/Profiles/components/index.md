@@ -1,5 +1,5 @@
 ---
-title: 'Components Index'
+title: Components Index
 order: 1
 template: coltrane/content.html
 active: ok

@@ -1,5 +1,5 @@
 ---
-title: 'Theapeutic Positions'
+title: Therapeutic Positions
 order: 1
 template: coltrane/group-nav.html
 active: ok
