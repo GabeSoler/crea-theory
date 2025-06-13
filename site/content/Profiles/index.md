@@ -18,30 +18,30 @@ Please explore, question and wonder *with* the concepts I am offering. Have a lo
 
 <h3><a href="/Profiles/components/">Components</a></h3>
 {% directory_contents 'Profiles/components' order_by='order' as directory_contents %}
-<ul>
+<ul class="list-group">
 {% for content in  directory_contents %}
     {% if content.active != 'disabled' %}
-    <li><a href="/{{content.slug}}/"
+    <li class="list-group-item list-group-item-primary"><a href="/{{content.slug}}/"
     >{{content.title}}</a></li>{% endif %}
     {% endfor %}
 </ul>
 
 <h3><a href="/Profiles/personal_profile/">Personal Profile</a></h3>
 {% directory_contents 'Profiles/personal_profile' order_by='order' as directory_contents %}
-<ul>
+<ul class="list-group">
 {% for content in  directory_contents %}
     {% if content.active != 'disabled' %}
-    <li><a href="/{{content.slug}}/"
+    <li class="list-group-item list-group-item-primary"><a href="/{{content.slug}}/"
     >{{content.title}}</a></li>{% endif %}
     {% endfor %}
 </ul>
 
 <h3><a href="/Profiles/traditions/">Big Traditions</a></h3>
 {% directory_contents 'Profiles/traditions' order_by='order' as directory_contents %}
-<ul>
+<ul class="list-group">
 {% for content in  directory_contents %}
     {% if content.active != 'disabled' %}
-    <li><a href="/{{content.slug}}/"
+    <li class="list-group-item list-group-item-primary"><a href="/{{content.slug}}/"
     >{{content.title}}</a></li>{% endif %}
     {% endfor %}
 </ul>

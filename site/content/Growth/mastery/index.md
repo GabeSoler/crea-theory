@@ -11,8 +11,8 @@ This section is to help you understand CreaTherapy mastery system in its core co
 
 ## Sections
 {% directory_contents 'Growth/mastery' order_by='order' as directory_contents %}
-<ul>
+<ul class="list-group">
 {% for content in directory_contents %}
-    <li><a href="/{{content.slug}}/">{{content.title}}</a></li>
+    <li class="list-group-item list-group-item-primary"><a href="/{{content.slug}}/">{{content.title}}</a></li>
     {% endfor %}
 </ul>

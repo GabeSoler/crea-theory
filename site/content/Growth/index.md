@@ -8,10 +8,10 @@ This space aims to help you think about your professional growth in a way that i
 
 <h3><a href="/Growth/mastery/">Mastery</a></h3>
 {% directory_contents '/Growth/mastery' order_by='order' as directory_contents %}
-<ul>
+<ul class="list-group">
 {% for content in  directory_contents %}
     {% if content.active != 'disabled' %}
-    <li><a href="/{{content.slug}}/"
+    <li class="list-group-item list-group-item-primary"><a href="/{{content.slug}}/"
     >{{content.title}}
     </a></li>
     {% endif %}
@@ -20,9 +20,10 @@ This space aims to help you think about your professional growth in a way that i
 
 <h3><a href="/Growth/shadow/">Shadow Work</a></h3>
 {% directory_contents 'Growth/shadow' order_by='order' as directory_contents %}
+<ul class="list-group">
 {% for content in  directory_contents %}
     {% if content.active != 'disabled' %}
-    <li><a href="/{{content.slug}}/"
+    <li class="list-group-item list-group-item-primary"><a href="/{{content.slug}}/"
     >{{content.title}}
     </a></li>
     {% endif %}

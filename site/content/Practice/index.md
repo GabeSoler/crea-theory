@@ -11,8 +11,8 @@ Here I have written a few essays that aim to help you think between approaches w
 
 ## Sections
 {% directory_contents 'Practice/' order_by='order' as directory_contents %}
-<ul>
+<ul class="list-group">
 {% for content in directory_contents %}
-    <li><a href="/{{content.slug}}/">{{content.title}}</a></li>
+    <li class="list-group-item list-group-item-primary"><a href="/{{content.slug}}/">{{content.title}}</a></li>
     {% endfor %}
 </ul>

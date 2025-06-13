@@ -1,3 +1,11 @@
+----
+title: Evidence And Practice
+order: 5
+template: coltrane/group-nav.html
+active: ok
+publish_date: 2025-06-13 20:20:01
+----
+
 # Evidence and Practice
 
 CreaTherapy aims to be an evidence-based model, albeit not in the conventional sense. I firmly believe in the power of ideas, personal creation, and making things your way. 
